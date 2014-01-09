@@ -1,0 +1,155 @@
+/* CSS */
+
+body{
+    background: #000 url('../images/bg.jpg');
+    color: #fff;
+    font: 100%/1.5;
+}
+#content {
+    background-color: #606060;
+    margin: 0 auto;
+    padding: 1%;
+    width: 85%;
+}
+p {
+    line-height: 1.5;
+}
+footer {
+    background-color: #424242;
+    font-size: .75em;
+    text-align: center;
+}
+
+/*****  Links  *****/
+a {
+    color: #12c400;
+    text-decoration: none;
+}
+a:hover {
+    color: #17f600;
+}
+
+/*****  Sections *****/
+section {
+    clear: both;
+    display: block;
+    margin-top: 20%;
+    padding: 0 7%;
+}
+section:first-of-type {
+    margin-top: 0;
+}
+
+section > div {
+    padding: 0 2% 0 0;
+}
+section:nth-child(2n+2) > div { /* Even section paragraphs have padding on the right */
+    padding: 0 0 0 2%;
+}
+
+
+/*****  Headers *****/
+div > header:nth-child(1) {  /* First Header */
+    text-align: center;
+}
+div > header:nth-child(1) > h1 {  /* First Header H1 */
+    font-size: 2em;
+    text-align: center;
+    text-transform: uppercase;
+}
+article > p:last-of-type {   /* Create margin at bottom of non-sectioned paragraph */
+    margin-bottom: 8%;
+}
+
+header > h1 {
+    font-size: 1.5em;
+    font-variant: small-caps;
+}
+
+
+
+/*****  Images *****/
+img {
+    width: 100%;
+}
+img[alt="logo"] { /* Logo Image Only */
+    border: 5px solid #000;
+}
+section > div { /* Image Containers */
+    float: left;
+    width: 25%;
+}
+section:nth-child(2n+2) > div { /* Even section images are on the right */
+    float: right;
+}
+
+
+/*****  Figure *****/
+figure {  /* Figure Image Container */
+    margin: 0 auto;
+    width: 50%
+}
+figcaption {
+    font-size: .75em;
+}
+
+/**********************************************   Media Queries *******************************************************/
+/* Landscape Tablets / Laptops and Desktops / Browser Windows At Smaller Sizes */
+@media screen and (max-width: 801px) {
+    figure {  /* Make figure larger */
+        width: 60%
+    }
+    #content { /* Extend content further */
+        width: 90%;
+    }
+    section {  /* Remove extra padding to allow content to fill more space */
+        padding: 0 2%;
+    }
+}
+/* Tablet Portrait*/
+@media screen and (max-width: 600px) {
+    body {   /* Eliminate background image */
+        background: #606060;
+    }
+    #content { /* Content larger */
+        width: 96%;
+    }
+    figure {  /* Remove figure */
+        display: none;
+    }
+    article > header:nth-child(1) > h1 {  /* First Header in article is removed */
+        display: none;
+    }
+    section > div, section:nth-child(2n+2) > div { /* Image Containers larger*/
+        width: 50%;
+    }
+
+}
+/* Smart Phones Portrait */
+@media screen and (max-width: 480px) {
+    body {  /* Eliminate background image */
+        background: #606060;
+    }
+    #content {  /* Content larger */
+        width: 100%;
+    }
+    section { /* Remove section padding */
+        padding: 0;
+    }
+    /* Kept image of special infected, as users may not know names but only images before coming to site  */
+    section > div, section:nth-child(2n+2) > div { /* Image Containers no longer floated, and resized to show up better*/
+        float: none;
+        margin: 0 auto;
+        width: 40%;
+    }
+
+    section > div, section:nth-child(2n+2) > div {  /* Remove padding from sections */
+        padding: 0;
+    }
+    section > header, section:nth-child(2n+2) > header {  /* Headers are now centered */
+        text-align: center;
+    }
+
+
+}
+
