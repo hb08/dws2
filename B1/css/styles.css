@@ -1,0 +1,251 @@
+/* CSS */
+
+
+html:root { /*  Structural Pseudo-class Root  */
+    font-family: verdana, sans-serif;
+}
+
+body{
+    background: #fcdb6f; /* Old browsers */
+    background: -moz-linear-gradient(left,  #fcdb6f 0%, #ff920a 30%, #ff920a 70%, #fcdb6f 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%,#fcdb6f), color-stop(30%,#ff920a), color-stop(70%,#ff920a), color-stop(100%,#fcdb6f)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(left,  #fcdb6f 0%,#ff920a 30%,#ff920a 70%,#fcdb6f 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(left,  #fcdb6f 0%,#ff920a 30%,#ff920a 70%,#fcdb6f 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(left,  #fcdb6f 0%,#ff920a 30%,#ff920a 70%,#fcdb6f 100%); /* IE10+ */
+    background: linear-gradient(to right,  #fcdb6f 0%,#ff920a 30%,#ff920a 70%,#fcdb6f 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcdb6f', endColorstr='#fcdb6f',GradientType=1 ); /* IE6-9 */
+}
+footer {
+    font-size: .5em;
+    width: 90%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+/****** Headers  ******/
+header {
+    display: block;
+    text-align: center;
+}
+body > header:nth-child(1) {  /* Structural Pseudo-Class Nth Child | Change First header */
+    color: #fff;
+}
+body > header:nth-child(1) > h1 {
+    font: 2.3em 'Playfair Display SC', serif;
+}
+header div:only-of-type {  /* Structural Pseudo-Class Only Of Type Add background to only DIVs inside header*/
+    background: rgb(61, 61, 61); /* Old browsers */
+    background: -moz-radial-gradient(center, ellipse cover, rgba(61, 61, 61, 1) 0%, rgba(84, 84, 84, 1) 15%, rgba(84, 84, 84, 1) 16%, rgba(84, 84, 84, 1) 36%, rgba(84, 84, 84, 0) 69%); /* FF3.6+ */
+    background: -webkit-gradient(center, ellipse cover, color-stop(0%, rgba(61, 61, 61, 1)), color-stop(15%, rgba(84, 84, 84, 1)), color-stop(16%, rgba(84, 84, 84, 1)), color-stop(36%, rgba(84, 84, 84, 1)), color-stop(69%, rgba(84, 84, 84, 0))); /* Chrome,Safari4+ */
+    background: -webkit-radial-gradient(center, ellipse cover, rgba(61, 61, 61, 1) 0%, rgba(84, 84, 84, 1) 15%, rgba(84, 84, 84, 1) 16%, rgba(84, 84, 84, 1) 36%, rgba(84, 84, 84, 0) 69%); /* Chrome10+,Safari5.1+ */
+    background: -o-radial-gradient(center, ellipse cover, rgba(61, 61, 61, 1) 0%, rgba(84, 84, 84, 1) 15%, rgba(84, 84, 84, 1) 16%, rgba(84, 84, 84, 1) 36%, rgba(84, 84, 84, 0) 69%); /* Opera 11.10+ */
+    background: -ms-radial-gradient(center, ellipse cover, rgba(61, 61, 61, 1) 0%, rgba(84, 84, 84, 1) 15%, rgba(84, 84, 84, 1) 16%, rgba(84, 84, 84, 1) 36%, rgba(84, 84, 84, 0) 69%); /* IE10+ */
+    background: radial-gradient(center, ellipse cover, rgba(61, 61, 61, 1) 0%, rgba(84, 84, 84, 1) 15%, rgba(84, 84, 84, 1) 16%, rgba(84, 84, 84, 1) 36%, rgba(84, 84, 84, 0) 69%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3D3D3D', endColorstr='#545454',GradientType=1 ); /* IE6-8 */
+    width: 200px;
+    margin: 1em auto 3em;
+}
+header div img:only-child { /* Structural Pseudo-Class Only Child | Change the image within the divider in the header*/
+    border: none;
+    width: 150px;
+    margin-right: 10px;
+    padding: 15px;
+}
+body > header:nth-child(1) > p + p {  /* Sibling | Change font size of the paragraph directly below the first in the first header */
+    font-size: 1.5em ;
+}
+
+header > p { /* All paragraphs in headers are the same */
+    font: 2em "Courier New";
+    margin-top: -1em;
+}
+
+header > img {  /* Header Images have the same bottom margin */
+    margin-bottom: 2em;
+}
+
+
+/****** Links ******/
+a[href^="http://www."] { /* Attribute Begin With | Any links outside the site*/
+    color: #07a9eb;
+    font: 1em "Courier New";
+    text-decoration: none;
+}
+a[href^="http://www."]:hover { /* Any links outside the site */
+    color: #0ed8ff;
+}
+
+a[href*="#"] { /* Attribute Containing | Any links to targets*/
+    color: #3F3F3F;
+    text-decoration: none;
+}
+
+a[href*="#"]:hover {  /* Any links to targets  */
+    color: #666;
+}
+
+figcaption {
+    font: .75em "Courier New";
+    text-align: center;
+}
+
+a.top {  /* Class */
+    color: #dcdcdc;
+    font-size: .5em;
+}
+a.top:hover {
+    color:#0ed8ff;
+}
+
+
+/****** General Images ******/
+img[alt] { /* Attribute All with alt | Any images with an alt */
+    border: 5px solid #000;
+}
+
+img[alt$="News"]  { /* Attribute Ending With | Any images with alts ending in News*/
+    width: 400px;
+}
+img[alt~="Moon"] {  /* Attribute Word/White Space | Any images with alts that contain Moon*/
+    width: 250px;
+}
+
+
+
+/****** Navbar ******/
+
+nav {
+    margin-top: -1em;
+}
+
+h2 {
+    display: inline-block;
+    font-size: 1.2em;
+    font-weight: normal;
+    width: 44%;
+}
+h2:first-child {  /* Structural Psuedo Class | The first h2  */
+    padding-left: 2em;
+
+}
+h2:nth-child(2) { /* Second h2 */
+    padding-left: 2em;
+}
+h2:nth-child(3) { /* Third h2 */
+    position: relative;
+    z-index: -10;
+    top: .5em;
+    padding-left: 2em;
+    width: 10%;
+    }
+ul#top { /* ID */
+    list-style-type: none;
+    width: 95%;
+    margin: -4em auto 3%;
+}
+#top li {
+    display: inline-block;
+    margin-right: 3em;
+}
+ul > li:last-of-type {  /* Structural Last-Of-Type | Last list item */
+    margin-top: 2.5em;
+}
+
+
+/****** Shared Article and Aside ******/
+
+article > section, aside > section {  /* Multiple | Sections in both Article and Aside as first child  */
+    color: #fff;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+    padding: 1% 3%;
+}
+section { /* Every section has the same background */
+    background-color: #3F3F3F;
+}
+
+section:target {  /* Pseudo-Class | Background changes if they are the target */
+    background-color: #666;
+    border: 2px solid #fff;
+}
+section > header > h1:first-of-type {/* Child Selector | The first heading in a section header */
+    font: 2em "Courier New", serif;
+}
+
+section > header > p:first-of-type { /* First paragraph in a section header */
+    font-size: 1em;
+    margin-top: -2em;
+}
+p:empty {
+    height: 1.5em;
+}
+
+/****** Article ******/
+
+article {
+    display: inline-block;
+    width: 65%;
+    margin: 0 2.5% 0 1%;
+}
+article > section {   /* Margin for the sections within the article */
+    margin-bottom: 3em;
+}
+article > section > article {   /* Change only articles within sections within articles */
+    margin-bottom: 3em;
+}
+article > section > article > p:nth-child(1) {  /* Change only the first paragraph inside an article inside a section in the overall container */
+    margin-left: 3em;
+    font-style: oblique;
+}
+article > section > article > p:nth-child(2):first-letter, aside > section > p:first-of-type:first-letter { /* Structural Psuedo-Element | Change the first letter of the first paragraph in the actual news articles/posts */
+    font-size: 2em;
+}
+
+article > section > article {  /* Articles are a specific width within sections */
+    width: 95%;
+}
+
+article:last-of-type > section{ /* Structural Last Of Type | Last article */
+    margin:0 auto;
+}
+
+/****** Aside ******/
+
+aside {
+    display: inline-block;
+    position: relative;
+    width: 30%;
+    vertical-align: top;
+}
+
+aside > section {  /* Margin for the sections within the aside */
+    margin: 30em 0 200em;
+}
+aside > section:last-child {   /* Structural Last Child | Margin of the last section in the aside */
+    margin-bottom: 0;
+}
+
+
+/****** Table ******/
+table[title|="Victim"] {
+    background-color: #8fabb5;
+    width: 100%;
+    margin-bottom: 2em;
+}
+tr:nth-last-of-type(2n+1) {
+    background-color: #666666;
+}
+td:nth-child(1) {
+    width: 24%;
+}
+td {
+    padding: 0 1%;
+}
+td[colspan="2"]{
+    color: #000;
+    background-color: #fffca2;
+}
+
+
