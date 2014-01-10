@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ce39f0e0-5604-4f55-993f-bd9dc3a4fb94" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="ce39f0e0-5604-4f55-993f-bd9dc3a4fb94" name="Default" comment="" />
     <ignored path="repo.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="ce39f0e0-5604-4f55-993f-bd9dc3a4fb94" time="1389285512436" ignored="false" />
-    <file path="/index.html" changelist="ce39f0e0-5604-4f55-993f-bd9dc3a4fb94" time="1389292476816" ignored="false" />
+    <file path="/Dummy.txt" changelist="ce39f0e0-5604-4f55-993f-bd9dc3a4fb94" time="1389359309302" ignored="false" />
+    <file path="/index.html" changelist="ce39f0e0-5604-4f55-993f-bd9dc3a4fb94" time="1389378575005" ignored="false" />
     <file path="/README.md" changelist="ce39f0e0-5604-4f55-993f-bd9dc3a4fb94" time="1389097916309" ignored="false" />
     <file path="/styles.css" changelist="ce39f0e0-5604-4f55-993f-bd9dc3a4fb94" time="1389296068476" ignored="false" />
     <file path="/a.html" changelist="ce39f0e0-5604-4f55-993f-bd9dc3a4fb94" time="1389275752511" ignored="false" />
     <file path="/git_links.txt" changelist="ce39f0e0-5604-4f55-993f-bd9dc3a4fb94" time="1389296409075" ignored="false" />
+    <file path="/layout.css" changelist="ce39f0e0-5604-4f55-993f-bd9dc3a4fb94" time="1389378590543" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,19 +30,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="git_links.txt" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/B2/git_links.txt">
+      <file leaf-file-name="git_links.txt" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/B3/git_links.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="28" selection-start="83" selection-end="83" vertical-scroll-proportion="0.0">
+            <state line="7" column="4" selection-start="174" selection-end="219" vertical-scroll-proportion="0.14423077">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="styles.css" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/B2/css/styles.css">
+      <file leaf-file-name="layout.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/B3/stylesheets/layout.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="104" column="49" selection-start="2001" selection-end="2001" vertical-scroll-proportion="0.44368133">
+            <state line="52" column="23" selection-start="972" selection-end="972" vertical-scroll-proportion="-24.384615">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/B3/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="99" column="48" selection-start="0" selection-end="14399" vertical-scroll-proportion="28.166666">
               <folding />
             </state>
           </provider>
@@ -76,13 +84,16 @@
         <option value="$PROJECT_DIR$/git_links.txt" />
         <option value="$PROJECT_DIR$/B2/index.html" />
         <option value="$PROJECT_DIR$/B1/git_links.txt" />
-        <option value="$PROJECT_DIR$/B2/git_links.txt" />
         <option value="$PROJECT_DIR$/B2/css/styles.css" />
+        <option value="$PROJECT_DIR$/B2/git_links.txt" />
+        <option value="$PROJECT_DIR$/B3/git_links.txt" />
+        <option value="$PROJECT_DIR$/B3/index.html" />
+        <option value="$PROJECT_DIR$/B3/stylesheets/layout.css" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="80" />
+    <option name="x" value="95" />
     <option name="y" value="22" />
     <option name="width" value="1255" />
     <option name="height" value="874" />
@@ -113,7 +124,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -129,6 +139,38 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="repo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="repo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="repo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="B3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="repo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="repo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="B3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="stylesheets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -180,18 +222,20 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.HTML" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/B2" />
-    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/B3" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/B3" />
       <recent name="$PROJECT_DIR$/B2" />
     </key>
   </component>
@@ -240,7 +284,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="80" y="22" width="1255" height="874" extended-state="0" />
+    <frame x="95" y="22" width="1255" height="874" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -322,6 +366,20 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/B2/git_links.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/B2/css/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="104" column="49" selection-start="2001" selection-end="2001" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/B1/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -362,21 +420,54 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/B1/git_links.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="2" selection-start="57" selection-end="57" vertical-scroll-proportion="0.061813187">
-          <folding />
-        </state>
+        <state line="3" column="2" selection-start="57" selection-end="57" vertical-scroll-proportion="0.061813187" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/B2/git_links.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="28" selection-start="83" selection-end="83" vertical-scroll-proportion="0.0">
+        <state line="7" column="33" selection-start="192" selection-end="192" vertical-scroll-proportion="0.14423077">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/B2/css/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="104" column="49" selection-start="2001" selection-end="2001" vertical-scroll-proportion="0.44368133">
+        <state line="104" column="49" selection-start="2001" selection-end="2001" vertical-scroll-proportion="0.020604396">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/B3/stylesheets/base.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="260" column="144" selection-start="8806" selection-end="8806" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/B3/stylesheets/skeleton.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="33" selection-start="377" selection-end="377" vertical-scroll-proportion="0.41208792">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/B3/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="99" column="48" selection-start="0" selection-end="14399" vertical-scroll-proportion="28.166666">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/B3/stylesheets/layout.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="52" column="23" selection-start="972" selection-end="972" vertical-scroll-proportion="-24.384615">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/B3/git_links.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="4" selection-start="174" selection-end="219" vertical-scroll-proportion="0.14423077">
           <folding />
         </state>
       </provider>

@@ -1,0 +1,161 @@
+/*
+* Skeleton V1.2
+* Copyright 2011, Dave Gamache
+* www.getskeleton.com
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 6/20/2012
+*/
+
+/* Table of Content
+==================================================
+	#Site Styles
+	#Page Styles
+	#Media Queries
+	#Font-Face */
+
+/* #Site Styles
+================================================== */
+body {
+    background: #002f5e url('../images/bluebg.jpg');
+}
+.container {
+    background: #e0d391 url('../images/canvasbg.jpg');
+    padding: 2%;
+}
+#floatright, #goright, #nowright {  /* Change float for divs with images, use ID to ensure specificity win */
+    float: right;
+}
+p {
+    font: 1.2em 'Quicksand', sans-serif;
+}
+p.subtitle {
+    font-size: 1em;
+}
+/**** Headers ***/
+header {
+    margin-top: 1%;
+    text-align: center;
+}
+h1 {
+    font: 4em 'Averia Libre', cursive;
+}
+h3 {
+    margin: 4% 0 2%;
+}
+
+/**** Images ***/
+#headerimages {
+    margin: 0 auto;
+}
+
+img {
+    padding-top: 4%;
+    width: 100%;
+}
+
+
+
+/**** Nav List ***/
+nav {
+    margin-bottom: 7%;
+}
+nav > ul {
+    margin-top: 28%;
+}
+nav > ul > li {
+    margin-bottom: 14%;
+}
+li > a {
+    font: 2em 'Flamenco', cursive;
+    text-decoration: none;
+}
+li > a:hover {
+    color: #2c5ca6;
+}
+
+/**** Article ***/
+
+article {
+    margin-top: 2%;
+}
+
+
+
+
+/* #Page Styles
+================================================== */
+
+/* #Media Queries
+================================================== */
+
+	/* Smaller than standard 960 (devices and browsers) */
+	@media only screen and (max-width: 959px) {
+
+    }
+
+	/* Tablet Portrait size to standard 960 (devices and browsers) */
+	@media only screen and (min-width: 768px) and (max-width: 959px) {
+        nav > ul > li {  /* Change margin on list to better fit screen */
+            margin-bottom: 12%;
+        }
+        li > a {  /* Change font size */
+            font-size: 1.8em ;
+        }
+    }
+
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: 767px) {
+        /* Never seen because of following and above @media */
+    }
+
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {
+        .container .four.columns.fourty, .container .four.columns.sixty, #floatright, #goright, #nowright{  /* Remove float from image containers */
+            display: block;
+            clear: both;
+            float: none;
+            margin: 0 auto;
+        }
+        .container .four.columns.fourty { /* Change width of logo image */
+            width: 40%;
+        }
+        .container .four.columns.sixty, #floatright, #goright, #nowright  {   /* Change  width  of container to display images better */
+            width: 60%;
+        }
+        nav > ul { /* Change margin on list */
+            margin: 5% 25% 0 25%;
+        }
+
+    }
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 479px) {
+        header, .container #logo.four.columns.fourty, .container .four.columns.sixty, #floatright, #goright, #nowright{ /* Remove float  */
+            display: block;
+            clear: both;
+            float: none;
+            margin: 0 auto;
+         }
+        header, .container .sixteen.columns, .container nav.four.columns , .container .four.columns.sixty, #floatright, #goright, #nowright {   /* Change to full width */
+            width: 100%;
+        }
+        body {   /* remove body background */
+            background: transparent;
+        }
+        .container {  /* Enlarge container size, or content is too small in width*/
+            width: 95%;
+        }
+        .container #logo.four.columns.fourty { /* Change logo size */
+            width: 40%;
+        }
+        nav > ul {  /* change width, padding, and margin to center and keep space */
+            width: 50%;
+            margin: 5% auto;
+            padding-left: 10%;
+        }
+        img { /*  Adjust padding for better flow of text in margins */
+            padding: 0 0 2% 0;
+        }
+    }
+
