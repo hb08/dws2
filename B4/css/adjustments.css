@@ -1,0 +1,330 @@
+body {
+    background-color: #EDECBB;
+}
+.container {
+    margin-top: 2%;
+}
+a {
+    color: #818270;
+}
+a:hover {
+    color: #000;
+    text-decoration: none;
+}
+/************************************************ MULTIPLE ************************************************************/
+.row:nth-child(1), section, nav {   /** Background color and text align for first row, sections, and nav **/
+    background-color: #fff;
+    text-align: center;
+}
+h1, h2, h3, h4, h5, .btn {   /** Font for all headers and buttons **/
+    font-family: 'Kaushan Script', cursive;
+}
+h1, blockquote {
+    border-bottom: 1px solid #EDECBB;
+}
+.form-control:focus, a.thumbnail:hover, #authPhoto > a:hover> img { /** Change border, outline, and shadows on forms and photos focused or hovered on  **/
+    border-color: #b5b6a0;
+    outline: 0 none;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(181, 182, 160, 0.6);
+}
+
+
+/************************************************ NAV BAR *************************************************************/
+.nav > li > a:hover, .nav > li > a:focus, .nav > li.disabled > a, .nav > li.disabled > a:hover, .nav > li.disabled > a:focus { /** All navigation items **/
+    /* Remove Backgrounds */
+    background-color: transparent;
+}
+.nav li {  /** Navigation first level list items **/
+    display: inline-block;
+    margin-left: 3%;
+    width: 20%;
+}
+.glyphicon { /** Add padding and push from top to glyphicons **/
+    padding-left: 3%;
+    top: 3px;
+}
+/**** Dropdown ****/
+.dropdown-menu > li, .dropdown, .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {  /** Dropdown list items and links **/
+    width: 100%;
+}
+.dropdown-menu > li { /** All list items in dropdown menus  **/
+    display: block;
+}
+.dropdown > a:hover, .dropdown > a:focus, .dropdown > a:active, .nav .open > a, .nav .open > a:hover, .nav .open > a:focus  {   /** Hovered/Focus/Active dropdown items  **/
+    background: rgb(207,209,186); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(207,209,186,1) 1%, rgba(237,236,187,1) 40%, rgba(237,236,187,1) 56%, rgba(207,209,186,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,rgba(207,209,186,1)), color-stop(40%,rgba(237,236,187,1)), color-stop(56%,rgba(237,236,187,1)), color-stop(100%,rgba(207,209,186,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgba(207,209,186,1) 1%,rgba(237,236,187,1) 40%,rgba(237,236,187,1) 56%,rgba(207,209,186,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgba(207,209,186,1) 1%,rgba(237,236,187,1) 40%,rgba(237,236,187,1) 56%,rgba(207,209,186,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgba(207,209,186,1) 1%,rgba(237,236,187,1) 40%,rgba(237,236,187,1) 56%,rgba(207,209,186,1) 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  rgba(207,209,186,1) 1%,rgba(237,236,187,1) 40%,rgba(237,236,187,1) 56%,rgba(207,209,186,1) 100%); /* W3C */
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {   /** Hovered/Focused on dropdown menu items **/
+    background: rgb(237,236,187); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(237,236,187,1) 1%, rgba(207,209,186,1) 40%, rgba(207,209,186,1) 56%, rgba(237,236,187,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,rgba(237,236,187,1)), color-stop(40%,rgba(207,209,186,1)), color-stop(56%,rgba(207,209,186,1)), color-stop(100%,rgba(237,236,187,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgba(237,236,187,1) 1%,rgba(207,209,186,1) 40%,rgba(207,209,186,1) 56%,rgba(237,236,187,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgba(237,236,187,1) 1%,rgba(207,209,186,1) 40%,rgba(207,209,186,1) 56%,rgba(237,236,187,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgba(237,236,187,1) 1%,rgba(207,209,186,1) 40%,rgba(207,209,186,1) 56%,rgba(237,236,187,1) 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  rgba(237,236,187,1) 1%,rgba(207,209,186,1) 40%,rgba(207,209,186,1) 56%,rgba(237,236,187,1) 100%); /* W3C */
+}
+.dropdown-menu > li:last-of-type > a {  /** Last item in a list **/
+    border-top: 1px dashed #b2dba1;
+    font-weight: bold;
+    margin-top: 6%;
+    padding: 6%;
+}
+
+
+/************************************************ ROWS ****************************************************************/
+.row:last-of-type {    /** Foot Row **/
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+.col-md-3  h2 { /** H2 items in side rows or any with 1/4 sizing **/
+    margin-bottom: 4%;
+    text-align: center;
+}
+
+/**** Header Row ****/
+.row:nth-child(1) { /** First Row/Header Row **/
+    border-radius: 20px;
+    margin-bottom: 3%;
+}
+.row:nth-child(1) h1 { /** First Row H1 Only **/
+    font-size:  4em;
+    margin-bottom: 1%;
+    padding-bottom: 2%;
+}
+
+
+
+/************************************************ SECTION *************************************************************/
+section {    /** All Sections **/
+    border-radius: 20px;
+}
+.row:nth-child(3) > section:nth-child(1)  {   /** Adjust margin of first section in third row to compensate for push down by longer sidebar in second row **/
+    margin-top: -71.1%;
+}
+.row:nth-child(3) > section:nth-child(2){   /** Margin on Second Section in Third Row **/
+    margin-top: 3%;
+}
+h2 {  /** All H2 **/
+    margin: 3% auto;
+    text-align: left;
+}
+
+/**** Quote of the Day ****/
+#authPhoto{
+    margin-bottom: 5%;
+}
+p#quoted {
+    font-size: 1.5em;
+    margin-top: 5%;
+}
+p#quoteAuthor {
+    margin: 5% auto;
+}
+
+
+/**** Quote Blocks ****/
+blockquote {
+    border-left: none;
+    padding-bottom: 3%;
+}
+blockquote p {
+    text-align: left;
+}
+a.author {
+    font-size: .9em;
+    margin-right: 2%;
+}
+
+/**** Pagination ****/
+.pagination {
+    display: inline-block;
+    margin: 2% auto 6%;
+}
+
+
+/************************************************ SIDE BAR ************************************************************/
+a.more.col-md-12 {   /** Links with More Class displayed as blocks with larger margins to create visual difference **/
+    display: block;
+    font-size: 1.3em;
+    margin: 1% auto 5%;
+    text-align: center;
+}
+
+/**** Thumbnails ****/
+.thumbnail {
+    margin-bottom: 8%;
+    padding: 0;
+}
+
+.col-md-2 .thumbnail .caption {  /** Captions are centered with no padding **/
+    padding: 0;
+    text-align: center;
+}
+.caption h5 {  /** Caption Text **/
+    font-size: 1.2em;
+}
+
+/**** Form ****/
+form > .form-group > h4 {  /** Form Group H4 **/
+    border-bottom: 1px dashed #b2dba1;
+    font-family: helvetica, sans-serif;
+    margin-bottom: 7%;
+    padding-bottom: 3%;
+    text-align: left;
+}
+.form-group:first-of-type {  /** First Form Group has larger bottom Margin to create comfortable white space **/
+    margin-bottom: 34%;
+}
+.form-group div {  /** Form Group Divs have left alignment **/
+    text-align: left;
+}
+.radio label {  /** Labels have a margin on Radio Labels **/
+    margin-left: 10%;
+}
+input{ /** All Inputs have more bottom margins **/
+    margin-bottom: 3%;
+}
+.form-control { /** Form Controls are inline-blocks aligned left **/
+    display: inline-block;
+}
+.btn { /** Button coloration, font, and padding changed **/
+    background: rgb(191,210,85); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(191,210,85,1) 0%, rgba(142,185,42,1) 37%, rgba(114,170,0,1) 51%, rgba(158,203,45,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(191,210,85,1)), color-stop(37%,rgba(142,185,42,1)), color-stop(51%,rgba(114,170,0,1)), color-stop(100%,rgba(158,203,45,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgba(191,210,85,1) 0%,rgba(142,185,42,1) 37%,rgba(114,170,0,1) 51%,rgba(158,203,45,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgba(191,210,85,1) 0%,rgba(142,185,42,1) 37%,rgba(114,170,0,1) 51%,rgba(158,203,45,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgba(191,210,85,1) 0%,rgba(142,185,42,1) 37%,rgba(114,170,0,1) 51%,rgba(158,203,45,1) 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  rgba(191,210,85,1) 0%,rgba(142,185,42,1) 37%,rgba(114,170,0,1) 51%,rgba(158,203,45,1) 100%); /* W3C */
+    color: #000;
+    display: block;
+    font-size: 1.3em;
+    margin: 5% auto 0;
+    padding: 1% 20%;
+}
+
+
+
+/************************************************ FOOTER **************************************************************/
+/**** Table ****/
+.table > tbody > tr > th, .table > tbody > tr > td {     /** Table headings and data have borders on top **/
+    border-top: 1px solid #b5b6a0;
+}
+.table td {  /** Table data is in blocks **/
+    display: block;
+}
+.table td a { /** Table links are blocks **/
+    display: block;
+    font-size: 1em;
+}
+.table td a:last-of-type {  /** Last links in table are emphasized **/
+    border-top: 1px dotted #818270;
+    font-weight: bold;
+    margin-top: 3%;
+    padding-top: 2%;
+}
+
+/**********************************************************************************************************************/
+/************************************************ MEDIA QUERIES *******************************************************/
+/**********************************************************************************************************************/
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+@media (max-width: 767px) {
+    .col-md-3 h2 {  /** H2 Borders adjusted, all left aligned **/
+        margin-bottom: 3%;
+        text-align: left;
+    }
+    /*** Dropdown ***/
+    .dropdown:nth-child(4).open > .dropdown-menu {  /** Last open menu is adjusted left to keep on screen **/
+        left: -90%;
+    }
+    /** Row/Section Margins **/
+    .row {   /** Rows have no margin **/
+        margin: 0;
+    }
+    .row:nth-child(3) > section:nth-child(1), .row > section:nth-child(2) {  /* Adjust margin between sections */
+        margin-top: 3%;
+    }
+    .row:nth-child(3) { /** Third row has margin on bottom **/
+        margin-bottom: 5%;
+    }
+    /** Form **/
+    .form-group:nth-child(1) { /** First form group has margin **/
+        margin-bottom: 7%;
+    }
+    #quote, div.form-group:nth-child(2) > label {   /** ID with Quote and second form group labels aligned left **/
+        text-align: left;
+    }
+
+}
+
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {
+    .h2 {   /** All H2 **/
+        margin: 0 auto;
+    }
+    .col-md-3 h2 { /** Side column H2 no bottom margin **/
+        margin-bottom: 0;
+    }
+    .row:nth-child(3) > section:nth-child(1), .row > section:nth-child(2) {  /* Adjust margin between sections */
+        margin-top: 3%;
+    }
+    div > .thumbnail {  /** Thumbnails are inline blocks **/
+        width: 100%;
+        display: inline-block;
+    }
+    .col-sm-12 h2 {  /** Columns that span whole row h2 **/
+        padding: 3%;
+        text-align: left;
+    }
+    .row:nth-child(3) { /** Third row has bottom margin, now is last row **/
+        margin-bottom: 5%;
+    }
+    /** Form **/
+    .form-group:nth-child(1) {  /** First form group has margin for better whitespace **/
+        margin-bottom: 7%;
+    }
+    form > .form-group > h4 { /** Form group headings have extra margin space **/
+        margin-bottom: 2%;
+        padding-bottom: 1%;
+    }
+    .radio {  /** Radio buttons are inline-block **/
+        clear: both;
+        display: inline-block;
+    }
+    form > div { /** Form Divs are left aligned  **/
+        text-align: left;
+    }
+    .col-sm-1.control-label {  /** Control Labels are aligned left  **/
+        text-align: left;
+        padding-top: 1%;
+    }
+}
+
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .row:nth-child(3) > section:nth-child(1) {  /** Margin adjust for pushdown of side section in row above **/
+        margin-top: -83.9%
+    }
+    /** Form **/
+    .control-label.col-md-12 {   /** Control labels that span entire row are now left aligned, and without padding  **/
+        padding: 0;
+        text-align: left;
+    }
+    /** Footer **/
+    .table td a {  /** Footer table links are smaller font  **/
+        font-size: .75em;
+    }
+}
+
+
+
