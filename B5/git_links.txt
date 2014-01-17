@@ -1,0 +1,8 @@
+Assignment Links for DWSII
+Author: Harmony Betancourt
+
+B4 - Responsive with Foundation
+  Assignment Link
+    http://hb08.github.io/dws2/B5/index.html
+  Repo Link
+    https://github.com/hb08/dws2/tree/gh-pages/B5
