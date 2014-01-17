@@ -12,8 +12,9 @@ body { /* Text align center, unless otherwise stated */
     -o-box-shadow: 0px 1px 19px 2px #89A19B;
     margin-top: 2%;
     margin-bottom: 2%;
+    padding-bottom: 2%;
 }
-h1, .button, header p, figure > div > figcaption > a {
+h1, .button, header p, a > figure > figcaption  {
     font-family: 'Buda', cursive;
 }
 h1 {
@@ -169,8 +170,10 @@ input[type="tel"] {  /* Align text to center for better aesthetic, and to allow 
 /************************************ Gallery *************************************************************************/
 figure {
     background-color: #fff;
+    display: inline-block;
     margin: 0 1%;
     padding: 1%;
+    width: 30%;
 }
 figure > .row > div  {
     padding: 0;
@@ -179,13 +182,15 @@ figure > .row > div  {
 figure > .row > img {
     height: 300px;
 }
-figure > .row > figcaption {
-    padding: 10%;
+figure > figcaption {
+    padding: 5% 0;
 }
-figure > .row > figcaption > a {
+figure > figcaption {
     font-size: 2em;
 }
-
+a:hover > figure >  figcaption {
+    color: #a0b8e9;
+}
 
 
 
