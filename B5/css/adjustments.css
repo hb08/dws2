@@ -1,0 +1,223 @@
+/** Adjustments to Foundation **/
+body { /* Text align center, unless otherwise stated */
+    background-color: #9EBDB5;
+    text-align: center;
+}
+#container {   /* Set container with top and bottom margin */
+    background-color: #F2E1CB;
+    border-radius: 25px;
+    box-shadow: 0px 1px 19px 2px #89A19B;
+    -webkit-box-shadow:0px 1px 19px 2px #89A19B;
+    -moz-box-shadow: 0px 1px 19px 2px #89A19B;
+    -o-box-shadow: 0px 1px 19px 2px #89A19B;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+h1, .button, header p {
+    font-family: 'Buda', cursive;
+}
+h1 {
+    margin-bottom: 4%;
+}
+h2 {
+    font: 2em 'Overlock SC', cursive;
+}
+h3, h4, h5, label {
+    font-family: 'Overlock', cursive;
+}
+p {
+    text-align: left;
+}
+/************************************ HEADER **************************************************************************/
+header h1 {
+    font-size: 4em;
+}
+header address {
+    font-size: 1em;
+    margin: -5% auto 3%;
+    text-align: center;
+}
+header img {
+    width: 100%;
+}
+/************************************ ROWS / SECTIONS  ****************************************************************/
+#container > .row:nth-child(1) { /* First Row - Header Row */
+    border-bottom: 1px solid #5C6B8B;
+}
+.row:nth-child(1n + 1) { /* First Row - Header Row */
+    margin-top: 2%;
+}
+
+
+/************************************ NAVBAR **************************************************************************/
+.top-bar, .top-bar-section ul, .top-bar > .title-area > li > h1 > a{   /** Top Bar Overall Background/Font **/
+    background: #F2E1CB ;
+    color: #000;
+}
+.top-bar-section > ul > li > a, .top-bar > .top-bar-section > ul > li > a  { /* Target all top levels of the nav to have same background color*/
+    background: #5C6B8B;
+}
+.top-bar > .top-bar-section > ul > .has-dropdown > a { /* Top level navigation drop-downs have curved tops */
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.top-bar-section { /* Set top level navigation drop-downs */
+    width: 91.6667%
+}
+.top-bar > .title-area > li > h1 > a {  /* Home Button */
+    font-size: 1.2em;
+    text-align: left;
+}
+.top-bar > .title-area > li > h1 > a:hover {  /* Hover on Home */
+    color: #a0b8e9;
+}
+.top-bar-section > ul > li {  /* Dropdown Lists */
+    margin-left: 2%;
+    float: right;
+}
+.top-bar-section > ul > li > a {  /* Dropdown List Links */
+    font-size: 1em;
+}
+li.listSection {  /* New section in list */
+    border-top: 1px solid #5C6B8B;
+}
+
+
+/************************************ SECTION COMPONENTS **************************************************************/
+
+/** Panels **/
+.panel {
+    border-radius: 20px;
+    box-shadow: 0px 1px 17px -4px #968D81;
+    -webkit-box-shadow: 0px 1px 17px -4px #968D81;
+    -moz-box-shadow: 0px 1px 17px -4px #968D81;
+    -o-box-shadow: 0px 1px 17px -4px #968D81;
+}
+section > .panel:nth-child(1n+2) {
+    margin-top: 15%;
+}
+.panel h3 {
+    margin-top: 3%;
+}
+.panel p {
+    font-size: .9em;
+    padding: 0 5%;
+}
+.panel table {
+    background: rgba(255, 255, 255, 0.10);
+    border: none;
+    display: inline-block;
+    margin: 5% auto 0;
+}
+.panel table tr:nth-of-type(2n) {
+    background: rgba(0, 0, 0, 0.10);
+}
+.row:nth-child(2) > section > .panel, .row:nth-child(3) > section > .panel:nth-child(2n +2 ) { /* First panel in second row and every other panel in the second row starting with the second are pink */
+    background-color: #D89092;
+    border: 1px solid #c27e80;
+}
+.row:nth-child(3) > section > .panel:nth-child(2n +1 ) {  /* Every other panel in the second section starting with the first are brown */
+    background-color: #53392f;
+    border: 1px solid #432b21;
+}
+.row:nth-child(3) > section > .panel:nth-child(2n +1 ) h2, .row:nth-child(3) > section > .panel:nth-child(2n +1 ) td, .row:nth-child(3) > section > .panel:nth-child(2n +1 ) th { /* Brown Panels are all white in text */
+    color: #fff;
+}
+.panel div > img {
+    width: 100%;
+}
+
+
+/** Adoption Guidelines **/
+.row:nth-child(2) ul {  /* Adoption Guideline list */
+    font-size: .9em;
+}
+
+
+/** Adoption Form **/
+form h4 {
+    border-bottom: 1px dashed #74604B;
+    margin-bottom: 3%;
+    text-align: left;
+}
+form div section {
+    text-align: left;
+}
+form > .row:nth-child(2) > section {  /* Form Address section */
+    margin: 3% auto 5%;
+}
+label {
+    font-size: 1em;
+}
+.button {
+    background-color: #8eba89;
+    border: 2px solid #638762;
+    border-radius: 30px;
+    color: #000;
+    font-size: 1.5em;
+    font-variant: small-caps;
+    margin-top: 3%;
+    padding: 1% 15%;
+
+}
+.button:hover, .button:focus {
+    background-color: #638762;
+}
+input[type="tel"] {  /* Align text to center for better aesthetic, and to allow placeholder to suggest proper format */
+    text-align: center;
+}
+
+/**********************************************************************************************************************/
+/************************************ MEDIA QUERIES  ******************************************************************/
+
+/* Small screens 640px */
+@media only screen and (max-width: 40em) {
+    header h1 { /* Change line height, for when text centers and stacks */
+        line-height: 1em;
+    }
+    .panel  table {   /* Add margins to tighten content */
+        margin: 0 auto;
+    }
+    .panel p { /* Remove extra padding */
+        padding: 0 1%;
+    }
+    .row:nth-child(3) > section > .panel:nth-child(1n + 2) {  /* Hide all but fee panel in third row */
+        display: none;
+    }
+}
+
+/* Medium screens 641px */
+@media only screen and (min-width: 40.00001em) and (max-width: 57.43821em) {
+    /* Adjust Sections and Rows too full width for better display */
+    section.medium-4, section.medium-7 {  /* Panels resized to full row */
+        width: 100%;
+    }
+    .row > section > .panel:nth-child(1n + 2) { /* Hide all but fee panel in third row */
+        display: none;
+    }
+    /* Panels */
+    .panel > .row > div.medium-6 { /* Adjust image div */
+        width: 30%;
+    }
+    .panel p { /* Remove extra padding */
+        padding: 0 1%;
+    }
+    .panel table td, .panel table th {  /* Smaller font size in tables on panel */
+        font-size: .8em;
+    }
+}
+
+/* Larger Medium screens 840px */
+@media only screen and (min-width: 57.43822em) and (max-width: 64em) {
+    /** Panel **/
+    .panel p { /* Eliminate some of the extra padding */
+        padding: 0 3%;
+    }
+    .panel table td, .panel table th {  /* Smaller font size in tables on panel */
+        font-size: .8em;
+    }
+}
+
+
+
+

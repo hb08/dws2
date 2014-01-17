@@ -2,24 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce39f0e0-5604-4f55-993f-bd9dc3a4fb94" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/B4/images/annefrank.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/B4/images/disney.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/B4/images/eroosevelt.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/B4/images/jobs.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/B4/images/twain.jpg" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/B4/index.html" afterPath="$PROJECT_DIR$/B4/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="repo.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="ce39f0e0-5604-4f55-993f-bd9dc3a4fb94" time="1389728455899" ignored="false" />
-    <file path="/index.html" changelist="ce39f0e0-5604-4f55-993f-bd9dc3a4fb94" time="1389728973599" ignored="false" />
+    <file path="/index.html" changelist="ce39f0e0-5604-4f55-993f-bd9dc3a4fb94" time="1389921671399" ignored="false" />
     <file path="/README.md" changelist="ce39f0e0-5604-4f55-993f-bd9dc3a4fb94" time="1389097916309" ignored="false" />
     <file path="/styles.css" changelist="ce39f0e0-5604-4f55-993f-bd9dc3a4fb94" time="1389296068476" ignored="false" />
     <file path="/a.html" changelist="ce39f0e0-5604-4f55-993f-bd9dc3a4fb94" time="1389275752511" ignored="false" />
     <file path="/git_links.txt" changelist="ce39f0e0-5604-4f55-993f-bd9dc3a4fb94" time="1389728491626" ignored="false" />
     <file path="/layout.css" changelist="ce39f0e0-5604-4f55-993f-bd9dc3a4fb94" time="1389378590543" ignored="false" />
-    <file path="/adjustments.css" changelist="ce39f0e0-5604-4f55-993f-bd9dc3a4fb94" time="1389728209544" ignored="false" />
+    <file path="/adjustments.css" changelist="ce39f0e0-5604-4f55-993f-bd9dc3a4fb94" time="1389922286897" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,10 +33,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/B4/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="95" column="83" selection-start="7503" selection-end="7503" vertical-scroll-proportion="0.47756875">
+            <state line="116" column="12" selection-start="0" selection-end="18779" vertical-scroll-proportion="-0.625">
               <folding>
                 <element signature="tag#div#3;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
               </folding>
@@ -50,28 +44,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bootstrap.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/B4/css/bootstrap.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5292" column="19" selection-start="87884" selection-end="87892" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bootstrap.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/B4/js/bootstrap.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="219" column="55" selection-start="6585" selection-end="6598" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="adjustments.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="adjustments.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/B4/css/adjustments.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="327" column="0" selection-start="0" selection-end="12380" vertical-scroll-proportion="0.0">
+            <state line="327" column="0" selection-start="0" selection-end="12380" vertical-scroll-proportion="0.8111888">
               <folding />
             </state>
           </provider>
@@ -95,8 +71,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/styles.css" />
         <option value="$PROJECT_DIR$/stuff.txt" />
         <option value="$PROJECT_DIR$/B1/index.html" />
@@ -111,13 +85,15 @@
         <option value="$PROJECT_DIR$/B4/css/adjustments.css" />
         <option value="$PROJECT_DIR$/B4/git_links.txt" />
         <option value="$PROJECT_DIR$/B4/index.html" />
+        <option value="$PROJECT_DIR$/b5/foundation-5.0.2/index.html" />
+        <option value="$PROJECT_DIR$/b5/foundation-5.0.2/css/adjustments.css" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="20" />
+    <option name="x" value="81" />
     <option name="y" value="22" />
-    <option name="width" value="1412" />
+    <option name="width" value="1610" />
     <option name="height" value="874" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -176,60 +152,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="B4" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="repo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="repo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="B4" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="repo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="repo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="B4" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="repo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="repo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="B4" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fonts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -314,13 +236,13 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="20" y="22" width="1412" height="874" extended-state="0" />
+    <frame x="81" y="22" width="1610" height="874" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14326854" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17013232" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
@@ -396,21 +318,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/B2/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="71" column="263" selection-start="7275" selection-end="7275" vertical-scroll-proportion="2.237216" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/B2/css/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="104" column="49" selection-start="2001" selection-end="2001" vertical-scroll-proportion="0.020604396" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/B3/stylesheets/base.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="260" column="144" selection-start="8806" selection-end="8806" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/B3/stylesheets/skeleton.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="20" column="33" selection-start="377" selection-end="377" vertical-scroll-proportion="0.41208792" />
@@ -438,7 +345,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/B4/js/bootstrap.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="2980" selection-start="3126" selection-end="3128" vertical-scroll-proportion="0.13062409" />
+        <state line="6" column="2980" selection-start="3126" selection-end="3128" vertical-scroll-proportion="0.13062409">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/B3/index.html">
@@ -453,31 +364,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/B4/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5292" column="19" selection-start="87884" selection-end="87892" vertical-scroll-proportion="0.0">
+        <state line="5292" column="19" selection-start="87884" selection-end="87892" vertical-scroll-proportion="0.02097902">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/B4/js/bootstrap.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="219" column="55" selection-start="6585" selection-end="6598" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/B4/css/adjustments.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="327" column="0" selection-start="0" selection-end="12380" vertical-scroll-proportion="0.0">
+        <state line="219" column="55" selection-start="6585" selection-end="6598" vertical-scroll-proportion="0.020604396">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/B4/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="95" column="83" selection-start="7503" selection-end="7503" vertical-scroll-proportion="0.47756875">
+        <state line="116" column="12" selection-start="0" selection-end="18779" vertical-scroll-proportion="-0.625">
           <folding>
             <element signature="tag#div#3;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/B4/css/adjustments.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="327" column="0" selection-start="0" selection-end="12380" vertical-scroll-proportion="0.8111888">
+          <folding />
         </state>
       </provider>
     </entry>
