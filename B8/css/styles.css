@@ -24,7 +24,7 @@ h2 {
 /*** Gallery ***/
 div#gallery { /* Set width and margins */
     width: 98%;
-    margin: 0 auto;
+    margin: 0 3.5%;
 }
 a { /* All links are relative position, inline-block, with width and margin set */
     position: relative;

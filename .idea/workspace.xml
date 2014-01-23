@@ -2,8 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce39f0e0-5604-4f55-993f-bd9dc3a4fb94" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/B7/media/images/pagelements/another-zombie.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/B7/media/images/pagelements/background.jpg" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/B6/media/images/pagelements/logo_biohazard.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/B7/media/images/pagelements/another-zombie.png" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/B8/images/castle-of-bardi.jpg" afterPath="$PROJECT_DIR$/B7/images/castle-of-bardi.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/B8/images/city-of-florence.jpg" afterPath="$PROJECT_DIR$/B7/images/city-of-florence.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/B8/images/edinburgh-tenement.jpg" afterPath="$PROJECT_DIR$/B7/images/edinburgh-tenement.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/B8/images/monastery.jpg" afterPath="$PROJECT_DIR$/B7/images/monastery.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/B8/images/rooftops-of-london.jpg" afterPath="$PROJECT_DIR$/B7/images/rooftops-of-london.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/B8/images/small-church.jpg" afterPath="$PROJECT_DIR$/B7/images/small-church.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/B8/images/trnava-slovakia.jpg" afterPath="$PROJECT_DIR$/B7/images/trnava-slovakia.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/B8/index.html" afterPath="$PROJECT_DIR$/B8/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/B8/css/styles.css" afterPath="$PROJECT_DIR$/B8/css/styles.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="repo.iws" />
@@ -13,7 +22,7 @@
     <file path="/README.md" changelist="ce39f0e0-5604-4f55-993f-bd9dc3a4fb94" time="1389097916309" ignored="false" />
     <file path="/styles.css" changelist="ce39f0e0-5604-4f55-993f-bd9dc3a4fb94" time="1390512828989" ignored="false" />
     <file path="/a.html" changelist="ce39f0e0-5604-4f55-993f-bd9dc3a4fb94" time="1389275752511" ignored="false" />
-    <file path="/git_links.txt" changelist="ce39f0e0-5604-4f55-993f-bd9dc3a4fb94" time="1389980258796" ignored="false" />
+    <file path="/git_links.txt" changelist="ce39f0e0-5604-4f55-993f-bd9dc3a4fb94" time="1390513492999" ignored="false" />
     <file path="/layout.css" changelist="ce39f0e0-5604-4f55-993f-bd9dc3a4fb94" time="1389378590543" ignored="false" />
     <file path="/adjustments.css" changelist="ce39f0e0-5604-4f55-993f-bd9dc3a4fb94" time="1389926155380" ignored="false" />
     <file path="$PROJECT_DIR$/B7/js/webshims-stable/demos/webforms/datalist-experiment.html" changelist="ce39f0e0-5604-4f55-993f-bd9dc3a4fb94" time="1390275361793" ignored="false" />
@@ -52,7 +61,17 @@
     <favorites_list name="repo" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="styles.css" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/B8/css/styles.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="26" column="13" selection-start="419" selection-end="419" vertical-scroll-proportion="0.37702504">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -70,9 +89,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/B4/css/adjustments.css" />
-        <option value="$PROJECT_DIR$/B4/git_links.txt" />
-        <option value="$PROJECT_DIR$/b5/foundation-5.0.2/index.html" />
         <option value="$PROJECT_DIR$/b5/foundation-5.0.2/css/adjustments.css" />
         <option value="$PROJECT_DIR$/B4/index.html" />
         <option value="$PROJECT_DIR$/B5/index.html" />
@@ -84,13 +100,17 @@
         <option value="$PROJECT_DIR$/B7/css/styles.css" />
         <option value="$PROJECT_DIR$/B6/index.html" />
         <option value="$PROJECT_DIR$/B7/index.html" />
-        <option value="$PROJECT_DIR$/B8/css/styles.css" />
         <option value="$PROJECT_DIR$/B8/index.html" />
+        <option value="$PROJECT_DIR$/B6/git_links.txt" />
+        <option value="$PROJECT_DIR$/B7/git_links.txt" />
+        <option value="$PROJECT_DIR$/B8/git_links.txt" />
+        <option value="$PROJECT_DIR$/B8/css/styles.css" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="22" />
+    <option name="x" value="48" />
+    <option name="y" value="111" />
     <option name="width" value="1440" />
     <option name="height" value="864" />
   </component>
@@ -199,6 +219,54 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="media" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pagelements" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="repo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="repo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="B7" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="media" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="repo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="repo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="B7" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -213,21 +281,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="B5" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="repo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="repo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="B3" />
+              <option name="myItemId" value="B6" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -250,6 +304,8 @@
       <recent name="$PROJECT_DIR$/B2" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/B7" />
+      <recent name="$PROJECT_DIR$/B8" />
       <recent name="$PROJECT_DIR$/B6/media/images/books" />
       <recent name="$PROJECT_DIR$/B7/media/images/pagelements" />
       <recent name="$PROJECT_DIR$/B7/js" />
@@ -300,7 +356,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1440" height="864" extended-state="0" />
+    <frame x="48" y="111" width="1440" height="864" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -427,14 +483,11 @@
         <state line="163" column="7" selection-start="4101" selection-end="4101" vertical-scroll-proportion="0.72727275" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/B5/git_links.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="29" selection-start="387" selection-end="387" vertical-scroll-proportion="0.4945055" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/B6/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="110" column="70" selection-start="12021" selection-end="12021" vertical-scroll-proportion="0.5007236" />
+        <state line="110" column="70" selection-start="12021" selection-end="12021" vertical-scroll-proportion="0.5007236">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/B7/css/styles.css">
@@ -467,7 +520,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/B8/css/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="227" column="87" selection-start="0" selection-end="6985" vertical-scroll-proportion="4.8297873">
+        <state line="26" column="13" selection-start="419" selection-end="419" vertical-scroll-proportion="0.37702504">
           <folding />
         </state>
       </provider>
