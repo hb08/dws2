@@ -2,20 +2,38 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce39f0e0-5604-4f55-993f-bd9dc3a4fb94" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/B5/git_links.txt" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/B5/css/adjustments.css" afterPath="$PROJECT_DIR$/B5/css/adjustments.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/B5/index.html" afterPath="$PROJECT_DIR$/B5/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/B7/media/images/pagelements/another-zombie.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/B7/media/images/pagelements/background.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="repo.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="ce39f0e0-5604-4f55-993f-bd9dc3a4fb94" time="1389728455899" ignored="false" />
-    <file path="/index.html" changelist="ce39f0e0-5604-4f55-993f-bd9dc3a4fb94" time="1389926377404" ignored="false" />
+    <file path="/Dummy.txt" changelist="ce39f0e0-5604-4f55-993f-bd9dc3a4fb94" time="1390507222906" ignored="false" />
+    <file path="/index.html" changelist="ce39f0e0-5604-4f55-993f-bd9dc3a4fb94" time="1390504192184" ignored="false" />
     <file path="/README.md" changelist="ce39f0e0-5604-4f55-993f-bd9dc3a4fb94" time="1389097916309" ignored="false" />
-    <file path="/styles.css" changelist="ce39f0e0-5604-4f55-993f-bd9dc3a4fb94" time="1389296068476" ignored="false" />
+    <file path="/styles.css" changelist="ce39f0e0-5604-4f55-993f-bd9dc3a4fb94" time="1390512828989" ignored="false" />
     <file path="/a.html" changelist="ce39f0e0-5604-4f55-993f-bd9dc3a4fb94" time="1389275752511" ignored="false" />
-    <file path="/git_links.txt" changelist="ce39f0e0-5604-4f55-993f-bd9dc3a4fb94" time="1389922455485" ignored="false" />
+    <file path="/git_links.txt" changelist="ce39f0e0-5604-4f55-993f-bd9dc3a4fb94" time="1389980258796" ignored="false" />
     <file path="/layout.css" changelist="ce39f0e0-5604-4f55-993f-bd9dc3a4fb94" time="1389378590543" ignored="false" />
     <file path="/adjustments.css" changelist="ce39f0e0-5604-4f55-993f-bd9dc3a4fb94" time="1389926155380" ignored="false" />
+    <file path="$PROJECT_DIR$/B7/js/webshims-stable/demos/webforms/datalist-experiment.html" changelist="ce39f0e0-5604-4f55-993f-bd9dc3a4fb94" time="1390275361793" ignored="false" />
+    <file path="$PROJECT_DIR$/B7/js/webshims-stable/demos/webforms.html" changelist="ce39f0e0-5604-4f55-993f-bd9dc3a4fb94" time="1390275395340" ignored="false" />
+    <file path="$PROJECT_DIR$/B7/js/webshims-stable/demos/canvas.html" changelist="ce39f0e0-5604-4f55-993f-bd9dc3a4fb94" time="1390275395339" ignored="false" />
+    <file path="$PROJECT_DIR$/B7/js/webshims-stable/demos/mediaelement/responsive-mediaelement.html" changelist="ce39f0e0-5604-4f55-993f-bd9dc3a4fb94" time="1390275361793" ignored="false" />
+    <file path="$PROJECT_DIR$/B7/js/webshims-stable/demos/mediaelement/track-demo.html" changelist="ce39f0e0-5604-4f55-993f-bd9dc3a4fb94" time="1390275361793" ignored="false" />
+    <file path="$PROJECT_DIR$/B7/js/webshims-stable/demos/shiv.html" changelist="ce39f0e0-5604-4f55-993f-bd9dc3a4fb94" time="1390275395339" ignored="false" />
+    <file path="$PROJECT_DIR$/B7/js/webshims-stable/demos/webforms/styler/index.html" changelist="ce39f0e0-5604-4f55-993f-bd9dc3a4fb94" time="1390275361793" ignored="false" />
+    <file path="$PROJECT_DIR$/B7/js/webshims-stable/demos/details.html" changelist="ce39f0e0-5604-4f55-993f-bd9dc3a4fb94" time="1390275395339" ignored="false" />
+    <file path="$PROJECT_DIR$/B7/js/webshims-stable/demos/webforms/styler/range.html" changelist="ce39f0e0-5604-4f55-993f-bd9dc3a4fb94" time="1390275361793" ignored="false" />
+    <file path="$PROJECT_DIR$/B7/js/webshims-stable/demos/es5.html" changelist="ce39f0e0-5604-4f55-993f-bd9dc3a4fb94" time="1390275395339" ignored="false" />
+    <file path="$PROJECT_DIR$/B7/js/webshims-stable/demos/filereader.html" changelist="ce39f0e0-5604-4f55-993f-bd9dc3a4fb94" time="1390275395339" ignored="false" />
+    <file path="$PROJECT_DIR$/B7/js/webshims-stable/demos/geolocation.html" changelist="ce39f0e0-5604-4f55-993f-bd9dc3a4fb94" time="1390275395339" ignored="false" />
+    <file path="$PROJECT_DIR$/B7/js/webshims-stable/demos/json-storage.html" changelist="ce39f0e0-5604-4f55-993f-bd9dc3a4fb94" time="1390275395339" ignored="false" />
+    <file path="$PROJECT_DIR$/B7/js/webshims-stable/demos/webforms/jquery-mobile.html" changelist="ce39f0e0-5604-4f55-993f-bd9dc3a4fb94" time="1390275361793" ignored="false" />
+    <file path="$PROJECT_DIR$/B7/js/webshims-stable/demos/mediaelement.html" changelist="ce39f0e0-5604-4f55-993f-bd9dc3a4fb94" time="1390275395339" ignored="false" />
+    <file path="$PROJECT_DIR$/B7/js/webshims-stable/demos/webforms/4-webforms-custom-validity.html" changelist="ce39f0e0-5604-4f55-993f-bd9dc3a4fb94" time="1390275395339" ignored="false" />
+    <file path="$PROJECT_DIR$/B7/js/webshims-stable/demos/webforms/1-webforms-lang-custom-bubble.html" changelist="ce39f0e0-5604-4f55-993f-bd9dc3a4fb94" time="1390275395339" ignored="false" />
+    <file path="$PROJECT_DIR$/B7/js/webshims-stable/demos/webforms/3-webforms-widgets.html" changelist="ce39f0e0-5604-4f55-993f-bd9dc3a4fb94" time="1390275395339" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,29 +52,7 @@
     <favorites_list name="repo" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/B5/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="348" column="72" selection-start="20059" selection-end="20059" vertical-scroll-proportion="-18.166666">
-              <folding>
-                <element signature="tag#header#0;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-                <element signature="tag#nav#0;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="adjustments.css" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/B5/css/adjustments.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="183" column="59" selection-start="5106" selection-end="5106" vertical-scroll-proportion="0.4755245">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -74,30 +70,29 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/git_links.txt" />
-        <option value="$PROJECT_DIR$/B2/index.html" />
-        <option value="$PROJECT_DIR$/B1/git_links.txt" />
-        <option value="$PROJECT_DIR$/B2/css/styles.css" />
-        <option value="$PROJECT_DIR$/B2/git_links.txt" />
-        <option value="$PROJECT_DIR$/B3/git_links.txt" />
-        <option value="$PROJECT_DIR$/B3/index.html" />
-        <option value="$PROJECT_DIR$/B3/stylesheets/layout.css" />
         <option value="$PROJECT_DIR$/B4/css/adjustments.css" />
         <option value="$PROJECT_DIR$/B4/git_links.txt" />
         <option value="$PROJECT_DIR$/b5/foundation-5.0.2/index.html" />
         <option value="$PROJECT_DIR$/b5/foundation-5.0.2/css/adjustments.css" />
-        <option value="$PROJECT_DIR$/B5/git_links.txt" />
         <option value="$PROJECT_DIR$/B4/index.html" />
         <option value="$PROJECT_DIR$/B5/index.html" />
         <option value="$PROJECT_DIR$/B5/css/adjustments.css" />
+        <option value="$PROJECT_DIR$/B5/git_links.txt" />
+        <option value="$PROJECT_DIR$/B6/js/script.js" />
+        <option value="$PROJECT_DIR$/B6/css/styles.css" />
+        <option value="$PROJECT_DIR$/B7/js/script.js" />
+        <option value="$PROJECT_DIR$/B7/css/styles.css" />
+        <option value="$PROJECT_DIR$/B6/index.html" />
+        <option value="$PROJECT_DIR$/B7/index.html" />
+        <option value="$PROJECT_DIR$/B8/css/styles.css" />
+        <option value="$PROJECT_DIR$/B8/index.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-117" />
     <option name="y" value="22" />
-    <option name="width" value="1610" />
-    <option name="height" value="874" />
+    <option name="width" value="1440" />
+    <option name="height" value="864" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -154,7 +149,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="B5" />
+              <option name="myItemId" value="B8" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -168,7 +163,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="B5" />
+              <option name="myItemId" value="B8" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -186,7 +181,53 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="B4" />
+              <option name="myItemId" value="B7" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="repo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="repo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="B7" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="repo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="repo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="B5" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="repo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="repo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="B3" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -198,14 +239,20 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.HTML" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../template/index.html" />
-    <property name="options.searchVisible" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/B6/media/images/books" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/B7/media/images" />
       <recent name="$PROJECT_DIR$/B3" />
       <recent name="$PROJECT_DIR$/B2" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/B6/media/images/books" />
+      <recent name="$PROJECT_DIR$/B7/media/images/pagelements" />
+      <recent name="$PROJECT_DIR$/B7/js" />
     </key>
   </component>
   <component name="RunManager">
@@ -253,13 +300,13 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-117" y="22" width="1610" height="874" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="22" width="1440" height="864" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17013232" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28722653" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
@@ -345,36 +392,82 @@
         <state line="52" column="23" selection-start="972" selection-end="972" vertical-scroll-proportion="0.02097902" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/B3/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="352" selection-end="474" vertical-scroll-proportion="0.17366137" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../../template/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="4" selection-start="200" selection-end="236" vertical-scroll-proportion="0.21306819" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/B4/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="228" column="33" selection-start="15400" selection-end="15400" vertical-scroll-proportion="0.5875543">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/B5/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="348" column="72" selection-start="20059" selection-end="20059" vertical-scroll-proportion="-18.166666">
-          <folding>
-            <element signature="tag#header#0;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#nav#0;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-          </folding>
-        </state>
+        <state line="4" column="4" selection-start="89" selection-end="161" vertical-scroll-proportion="0.08683068" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/B5/css/adjustments.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="183" column="59" selection-start="5106" selection-end="5106" vertical-scroll-proportion="0.4755245">
+        <state line="197" column="0" selection-start="5253" selection-end="6976" vertical-scroll-proportion="0.12587413" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/B4/css/adjustments.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="232" column="0" selection-start="9091" selection-end="12376" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/B4/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="0" selection-start="120" selection-end="220" vertical-scroll-proportion="0.1519537" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/B7/js/css/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/B6/css/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="163" column="7" selection-start="4101" selection-end="4101" vertical-scroll-proportion="0.72727275" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/B5/git_links.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="29" selection-start="387" selection-end="387" vertical-scroll-proportion="0.4945055" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/B6/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="110" column="70" selection-start="12021" selection-end="12021" vertical-scroll-proportion="0.5007236" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/B7/css/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="256" column="0" selection-start="11844" selection-end="12207" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/B7/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="0" selection-start="65" selection-end="169" vertical-scroll-proportion="0.1171875">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/B3/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="4" selection-start="562" selection-end="647" vertical-scroll-proportion="0.3524229">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/B8/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="74" selection-start="134" selection-end="134" vertical-scroll-proportion="0.08810572">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/B8/css/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="227" column="87" selection-start="0" selection-end="6985" vertical-scroll-proportion="4.8297873">
           <folding />
         </state>
       </provider>

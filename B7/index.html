@@ -1,0 +1,160 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Employee Survey</title>
+    <!--  Mobile Friendly -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css" type="text/css" />
+    <link href='http://fonts.googleapis.com/css?family=Buda:300|Poiret+One|Gudea:400,400italic' rel='stylesheet' type='text/css'> <!-- Fonts -->
+    <!-- JavaScript -->
+    <script>
+        function showValue(newValue) {
+            document.getElementById("range").innerHTML=newValue;
+        }
+    </script>
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>  <!-- JQuery Library -->
+    <script src="js/js-webshim/minified/extras/modernizr-custom.js"></script>
+    <script src="js/js-webshim/minified/polyfiller.js"></script>
+    <script>
+        //load all defined
+        $.webshims.polyfill();
+    </script>
+</head>
+<body>
+    <div id="wrapper">
+        <header>
+            <h1>Getting to Know You!</h1>
+            <p>Employee Survey</p>
+        </header>
+        <form id="employeeSurvey">
+            <fieldset>
+                <legend>Contact Information</legend>
+                <div>
+                    <div class="medium">
+                        <label for="firstName">First Name <span class="req">*</span></label>
+                            <input id="firstName" name="firstName" type="text" autofocus required aria-required="true" />
+                    </div> <!-- Medium -->
+                    <div class="medium">
+                        <label for="lastName">Last Name <span class="req">*</span></label>
+                            <input id="lastName" name="lastName" type="text" required aria-required="true" />
+                    </div>  <!-- Medium -->
+                    <div class="small">
+                        <label for="tel">Telephone #</label>
+                        <input id="tel" name="tel" type="tel" />
+                    </div> <!-- Medium -->
+                    <div class="medium">
+                        <label for="email">Email <span class="req">*</span></label>
+                            <input id="email" name="email" type="email" required aria-required="true" />
+                    </div> <!-- Medium -->
+                </div> <!-- Fieldset Div -->
+            </fieldset>
+            <fieldset>
+                <legend>More About You</legend>
+                <div class="large">
+                    <div class="small">
+                        <label for="date">Birthday <span class="req">*</span></label>
+                            <input id="date" name="date" type="date" required aria-required="true" >
+                    </div> <!-- Small -->
+                    <div class="small">
+                        <label for="favColor">Favorite Color <span class="req">*</span></label>
+                            <input id="favColor" name="favColor" type="color" required aria-required="true" >
+                    </div> <!-- Small -->
+                    <div class="large">
+                        <label for="tell">Why Is That Your Favorite Color?</label>
+                            <textarea id="tell" name="tell" maxlength="30"></textarea>
+                    </div>  <!-- Medium -->
+                </div> <!-- Fieldset Div -->
+                <aside id="color">
+                    <p>Tell us your birthday and favorite color, and we'll give you a $50 gift basket in those colors as a birthday present!</p>
+                    <div class="center">
+                        <div class="imageHolder">
+                            <img src="media/images/giftsbaskets/black.jpg" alt="Gift Basket in Black" />
+                        </div>
+                        <div class="imageHolder">
+                            <img src="media/images/giftsbaskets/purple.jpg" alt="Gift Basket in Purple" />
+                        </div>
+                        <div class="imageHolder">
+                            <img src="media/images/giftsbaskets/green.jpg" alt="Gift Basket in Green" />
+                        </div>
+                    </div>
+                    <p>Some of Last Year's Baskets</p>
+                </aside>
+            </fieldset>
+            <fieldset>
+                <legend>Your Job</legend>
+                <div>
+                    <div class="large">
+                        <label for="work">Where Do You Work? <span class="req">*</span></label>
+                        <input id="work" name="work" list="placeOfEmployment" required aria-required="true" />
+                        <datalist id="placeOfEmployment">
+                            <option value="Corporate Office">
+                            <option value="Store 1028: 2517 W Henry Ave, Tampa, FL">
+                            <option value="Store 2039: 4125 Cleveland Ave #1200, Fort Myers, FL">
+                            <option value="Store 2246: 1100 6th Ave S, Naples, FL" >
+                            <option value="Store 4827: 216 S Armenia Ave, Tampa, FL">
+                            <option value="Store 5577: 13751 Tamiami Trail, Ft. Myers">
+                            <option value="Store 8456: 950 Central Ave, Naples, FL">
+                            <option value="Store 9905: 13144 N Dale Mabry Hwy, Tampa, FL">
+                        </datalist>
+                    </div> <!-- Large -->
+                    <div class="small">
+                        <label for="startDate">Start Date <span class="req">*</span></label>
+                            <input id="startDate" name="startDate" type="date" required aria-required="true" >
+                    </div> <!-- Small -->
+                    <div class="xlarge">
+                        <label for="length" >How Long Have You Worked At That Location?</label>
+                             <input id="length" class="medium" name="length" type="range" min="1" max="15" value="1" onchange="showValue(this.value)">
+                        <span id="range">8</span>
+                        <div class="small inline">
+                            <input type="radio" name="lengthType" value="months" id="months" />
+                            <label for="months">Months</label>
+                        </div>  <!-- Small Inline -->
+                        <div class="small inline">
+                            <input type="radio" name="lengthType" value="years" id="years" />
+                            <label for="years">Years</label>
+                        </div>   <!-- Small Inline -->
+                    </div>
+                    <div class="xlarge">
+                        <label>How Do You Get To Work?</label>
+                        <div class="xlarge fallin">
+                            <div class="small inline">
+                                <label for="walk">Walk</label>
+                                    <input type="checkbox" name="transport" value="walk" id="walk">
+                            </div> <!-- Small Selectbox -->
+                            <div class="small  inline">
+                                <label for="bike">Bicycle</label>
+                                    <input type="checkbox" name="transport" value="bike" id="bike">
+                            </div> <!-- Small Selectbox -->
+                            <div class="small  inline">
+                                <label for="bus">Bus</label>
+                                    <input type="checkbox" name="transport" value="bus" id="bus">
+                            </div> <!-- Small Selectbox -->
+                        </div> <!-- Large  -->
+                        <div class="xlarge fallin">
+                            <div class="small  inline">
+                                <label for="drive">Drive</label>
+                                    <input type="checkbox" name="transport" value="drive" id="drive">
+                            </div> <!-- Small Selectbox -->
+                            <div class="small  inline">
+                                <label for="carpool">Carpool</label>
+                                    <input type="checkbox" name="transport" value="carpool" id="carpool">
+                            </div>  <!-- Small Selectbox -->
+                        </div> <!-- Large -->
+                    </div> <!-- Large -->
+                </div> <!-- Fieldset DIV -->
+                <aside id="green">
+                    <p >Going Green!</p>
+                    <ul>
+                        <li>Free bus passes for all employees!</li>
+                        <li>Employees who walk or bike are given increased consideration for daytime shift.</li>
+                        <li>Contact Stacy at ext 237 to arrange or join a carpool.</li>
+                    </ul>
+                </aside>
+            </fieldset>
+            <p id="required">* Required Information</p>
+            <input type="submit" value="Submit">
+        </form>
+    </div> <!-- End Wrapper -->
+</body>
+</html>

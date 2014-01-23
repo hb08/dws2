@@ -1,0 +1,232 @@
+/* CSS */
+
+body{
+    background-color:#245269;
+}
+#wrapper {
+    background-color: #fff;
+    border-radius: 25px;
+    margin: 2% auto;
+    padding: 1%;
+    width: 95%;
+}
+header {
+    text-align: center;
+}
+h1 {
+    font: 4em 'Spirax', cursive;
+    margin-bottom: 0;
+}
+h2 {
+    font: 2em 'Life Savers', cursive;
+    margin-top: 0;
+}
+/*** Gallery ***/
+div#gallery { /* Set width and margins */
+    width: 98%;
+    margin: 0 auto;
+}
+a { /* All links are relative position, inline-block, with width and margin set */
+    position: relative;
+    display: inline-block;
+    width: 30%;
+    margin: 0 2% 2% 0;
+}
+div.imageHold { /* Image Divs are inline-block, 100% of link size, with margin set and relative position */
+    display: inline-block;
+    margin: 0 2% 2% 0;
+    position: relative;
+    width: 100%;
+}
+.imageHold img { /* Images are 100% width */
+    width: 100%;
+}
+.imageHold p {  /* Paragraphs in image divs are absolute positioned up from bottom, different font, centered text, no opacity */
+    font: 1.3em 'Love Ya Like A Sister', cursive;
+    opacity: 0.0;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+}
+a:hover > div > p { /* When hovered on, links show paragraphs in image divs by changing opacity to one, set background and font color */
+    background-color: rgb(34, 34, 34);
+    color: rgb(255, 255, 255);
+    opacity: 1;
+    padding: 1%;
+}
+
+/* First Image Scale */
+a:nth-child(1) > div > p { /* Set transition */
+    transition:all 0.6s ease;
+}
+a:nth-child(1):hover > div > p { /* Set left alignment, and transform with scale */
+    left: 11%;
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+
+}
+/* Second Image Translate */
+a:nth-child(2) > div > p { /* Set transition, adjust left */
+    left: 0;
+    transition: all .6s ease-out;
+}
+a:nth-child(2):hover > div > p { /* Transform using translate */
+    -webkit-transform: translate(0px, -245%);
+    -moz-transform: translate(0px, -245%);
+    -o-transform: translate(0px, -245%);
+    transform: translate(0px, -245%);
+}
+/* Third Image Rotate */
+a:nth-child(3) > div > p { /* Set bottom and left and transition */
+    bottom: 33%;
+    left: 3%;
+    transition:all 0.5s ease-out;
+}
+a:nth-child(3):hover > div > p { /* Rotate */
+    -webkit-transform: rotate(-30deg);
+    -moz-transform: rotate(-30deg);
+    -o-transform: rotate(-30deg);
+    transform: rotate(-30deg);
+}
+/* Fourth Image Skew */
+a:nth-child(4) > div > p { /* Set font-size, bottom, left, and transition */
+    font-size: 2em;
+    bottom: 57%;
+    left: 31%;
+    transition:all 0.5s ease-out .3s;
+}
+a:nth-child(4):hover > div > p { /* Skew */
+    -webkit-transform: skew(20deg, 10deg);
+    -moz-transform: skew(20deg, 10deg);
+    -o-transform: skew(20deg, 10deg);
+    transform: skew(20deg, 10deg);
+}
+/* Fifth Image Full Rotate */
+a:nth-child(5) > div > p { /* set font-size, bottom, left, transition */
+    font-size: 2em;
+    bottom: 11%;
+    left: 9%;
+    transition:all 0.5s ease-out .3s;
+}
+a:nth-child(5):hover > div > p { /* Rotate to spin once */
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+/* Sixth Image Scale */
+a:nth-child(6) > div > p { /* set original font size, bottom, left, transition */
+    font-size: 2em;
+    bottom: -16%;
+    left: 2%;
+    transition:all 0.8s ease-out .5s;
+}
+a:nth-child(6):hover > div > p { /* Scale smaller */
+    -webkit-transform: scale(.6);
+    -moz-transform: scale(.6);
+    -o-transform: scale(.6);
+    transform: scale(.6);
+}
+
+/**********************************************************************************************************************/
+/************************************************ MEDIA QUERIES *******************************************************/
+/**********************************************************************************************************************/
+
+/* Extra small devices (phones, less than 768px) */
+@media (max-width: 767px) {
+    body {  /* Body is 100% */
+        width: 100%;
+    }
+    #wrapper { /* Wrapper is 100% */
+        width: 100%:
+    }
+    div#gallery {  /* Gallery is 98% with adjusted margins */
+        width: 98%;
+        margin: 0 4%;
+    }
+    a { /* Links have extended bottom margin, and are 95% of page */
+        margin-bottom: 5%;
+        width: 95%;
+    }
+    a > div > p { /* Ajdust font-size down */
+        font-size: 1em;
+    }
+    a:nth-child(1):hover > div > p {  /* First Image Paragraph, left adjusted  */
+        left: 5%;
+    }
+    a:nth-child(2) > div > p { /* Second Image Paragraph, left eliminated bottom decreased */
+        left: 0;
+        bottom: -7%;
+    }
+    a:nth-child(3) > div > p {  /* Third Image Paragraph, bottom and left adjusted */
+        bottom: 28%;
+        left: -1%;
+    }
+    a:nth-child(4) > div > p { /* Fourth Image Paragraph, font changed, bottom and left adjusted */
+        font-size: 1.5em;
+        bottom: 62%;
+        left: 22%
+    }
+    a:nth-child(5) > div > p { /* Fifth Image Paragraph, left adjusted */
+        left: 2%;
+    }
+    a:nth-child(6) > div > p {  /* Sixth Image Paragraph, bottom adjusted */
+        bottom: -24%;
+    }
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {
+    a { /* Links are now 47% of page */
+        width: 47%;
+    }
+    a:nth-child(1):hover > div > p {   /* First Image Paragraph, Font size and left adjusted */
+        font-size: 1.2em;
+        left: 11%;
+    }
+    a:nth-child(2) > div > p { /* Second Image Paragraph, left eliminated */
+        left: 0;
+    }
+    a:nth-child(4) > div > p { /* Fourth Image Paragraph, bottom adjusted */
+        bottom: 59%;
+    }
+    a:nth-child(5) > div > p { /* Fifth Image Paragraph, left adjusted */
+        left: 9%;
+    }
+    a:nth-child(6) > div > p { /* Sixth Image Paragraph, bottom adjusted */
+        bottom: -17%;
+    }
+}
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px) {
+    a:nth-child(1):hover > div > p { /*First Image Paragraph, left adjusted, scale smaller */
+        left: 0;
+        -webkit-transform: scale(1.1);
+        -moz-transform: scale(1.1);
+        -o-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+    a:nth-child(2) > div > p {  /* Second Image Paragraph, left and bottom adjusted */
+        left: 0;
+        bottom: -10%;
+    }
+    a:nth-child(3) > div > p {  /* Third Image paragraph, left and bottom adjusted */
+        bottom: 28%;
+        left: 0;
+    }
+    a:nth-child(4) > div > p {  /* Fourth Image Paragraph, font smaller, bottom and left adjusted */
+        font-size: 1.3em;
+        bottom: 62%;
+        left: 27%;
+    }
+    a:nth-child(5) > div > p {  /* Fifth Image Paragraph, left and bottom adjsuted */
+        bottom: -3%;
+        left: 1%;
+    }
+    a:nth-child(6) > div > p { /* Sixth Image Paragraph, bottom and left adjusted */
+        bottom: -24%;
+        left: 0%;
+    }
+}

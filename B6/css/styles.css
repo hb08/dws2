@@ -1,0 +1,263 @@
+/* CSS */
+
+body{
+    background: #cecece url('../media/images/pagelements/background.jpg')  repeat;
+    color: #fff;
+    font-family: 'Gudea', sans-serif;
+}
+a {
+    color: #f04124;
+    font-family: 'Pompiere', cursive;
+    text-decoration: none;
+}
+a:hover {
+    color: #ff920a;
+}
+#wrapper { /* Position relative to keep all contained elements relative to wrapper, not body*/
+    background-color: #222222;
+    position: relative;
+    overflow: hidden;
+    margin: 2% auto;
+    width: 95%;
+}
+#wrapper > article > header, section.sidebar, footer  {  /* Sidebar, header, and footers have same background color */
+    background-color: #003f54;
+}
+header, footer a[title="authorWebsite"] {
+    font-family: 'Combo', cursive;
+}
+/*********** SECTIONS ********************/
+/*** Site Header **/
+.bgImage img {  /* Position of image absolute to wrapper */
+    position: absolute;
+    left: 26%;
+    top: .5em;
+}
+header {  /* Header is relative, and indexed above image */
+    position: relative;
+    z-index: 1;
+    text-align: center;
+}
+header h1 {
+    font-size: 4em;
+    margin-bottom: 0;
+}
+header p {
+    font-size: 2em;
+    margin-top: 0;
+}
+
+/** Page Header **/
+#wrapper > article > header > h1, article > header > h2 {   /* Headings in page content, not as heading across site */
+    display: inline-block;
+    margin: 1% auto;
+    width: 46%;
+}
+#wrapper > article > header > h1 {
+    font-size: 3em;
+    text-align: right;
+}
+#wrapper > article > header > h2 {
+    font-size: 2em;
+    text-align: left;
+    margin-left: 4%;
+}
+
+/**  Book Image List **/
+section.bookcovers {
+    background-color: #000;
+    padding: 1% 0;
+}
+#wrapper > article > section > ul > li {   /* Width to smallest decimal to ensure true size, vertical align to make sure they're all even despite differences in height */
+    display: inline-block;
+    list-style-type: none;
+    margin-left: 4%;
+    width: 10.090361445%;
+    vertical-align: top;
+}
+li figure {
+    width: 100%;
+}
+li a {
+    font-family: 'McLaren', cursive;
+}
+figure img {
+    width: 100%;
+}
+a span.bookpart {   /* Display as block to keep book position in series under the title of book */
+    display: block;
+    font-family: 'Pompiere', cursive;
+}
+
+section.maincontent, section.sidebar {
+    display: inline-block;
+}
+/** Left Side **/
+section.maincontent {
+    padding: 0 0 0 2% ;
+    width: 60%;
+}
+.maincontent > header > h2 {
+    margin-bottom: 1%;
+}
+.maincontent > header > p {
+    margin: 0;
+}
+.maincontent > header > p a, .maincontent > header > p {  /* Header paragraph all same size, even if link included */
+    font-size: 1em;
+    margin: 0;
+}
+
+/** Right Side **/
+section.sidebar { /* sidebar sized and aligned to top of main content */
+    margin: 2% auto 0 2%;
+    padding:  1% 4%;
+    vertical-align: top;
+    width: 25%;
+}
+section.sidebar a {
+    display: block;
+    text-align: center;
+}
+section.sidebar  header > h2 {
+    margin-bottom: 0;
+}
+.sideImage {
+    margin: 0 auto 5%;
+    width: 40%;
+}
+.sideImage img {
+    border: 10px solid #000;
+    width: 100%;
+}
+#article > ul > li {
+    display: block;
+}
+
+/** Footer **/
+footer { /* Footer fixed to bottom of viewing screen at all times, width of full screen, z-index to be top item always */
+    display: block;
+    position: fixed;
+        bottom: 0;
+        left: 0;
+    width: 100%;
+    z-index: 5;
+}
+footer p {
+    font-size: .7em;
+    margin: 0;
+    padding: .5% 0;
+    text-align: center;
+}
+footer a[title="authorWebsite"] {   /* Link to Author Website always present on header on the far right */
+    background: radial-gradient(center, ellipse cover, rgba(255, 121, 12, 1)46%, rgba(235, 220, 70, 0)67%);
+    background: -moz-radial-gradient(center, ellipse cover, rgba(255, 121, 12, 1)46%, rgba(235, 220, 70, 0)67%);
+    background: -webkit-radial-gradient(center, ellipse cover, rgba(255, 121, 12, 1)46%, rgba(235, 220, 70, 0)67%);
+    background: -o-radial-gradient(center, ellipse cover, rgba(255, 121, 12, 1)46%, rgba(235, 220, 70, 0)67%);
+    color: #000;
+    padding: .5% 3%;
+    position: absolute;
+        right: 1%;
+        top: 0;
+}
+footer a[title="authorWebsite"]:hover {
+    background: radial-gradient(center, ellipse cover, rgba(255, 229, 112, 1)46%, rgba(235, 220, 70, 0)67%);
+    background: -moz-radial-gradient(center, ellipse cover, rgba(255, 229, 112, 1)46%, rgba(235, 220, 70, 0)67%);
+    background: -webkit-radial-gradient(center, ellipse cover, rgba(255, 229, 112, 1)46%, rgba(235, 220, 70, 0)67%);
+    background: -o-radial-gradient(center, ellipse cover, rgba(255, 229, 112, 1)46%, rgba(235, 220, 70, 0)67%);
+}
+
+/**********************************************************************************************************************/
+/************************************************ MEDIA QUERIES *******************************************************/
+/**********************************************************************************************************************/
+
+/* Extra small devices (phones, less than 768px) */
+@media (max-width: 767px) {  /* Font size smaller */
+    #wrapper > article > header , #wrapper > article > header > h1, #wrapper > article > header > h2,  article > header > h2 , #wrapper > article > section > ul{  /* Headers are 100% width across entire page as are the unordered lists at top of page */
+        width: 100%;
+    }
+    #wrapper > article > header , #wrapper > article > header > h1, #wrapper > article > header > h2  { /* Cross site page headers are aligned center */
+        text-align: center;
+    }
+    #wrapper > article > header > h1 { /* Fonts size smaller in h1 */
+        font-size: 2em;
+    }
+    #wrapper > article > header > h2, header p  {  /* Font size smaller in h2 and paragraphs, 1 em */
+        font-size: 1em;
+        width: 100%;
+    }
+    #wrapper > article > section > ul > li {  /* Relative positioning with larger width, smaller right margin */
+        position: relative;
+        width: 27%;
+        margin-right: 2%;;
+    }
+    li > a {  /* Relative positioning, left 51% to look right in relative positioning tests via Firebug */
+        position: relative;
+        top: 0;
+        left: -51%;
+    }
+    figcaption {  /* Get rid of figcaption */
+        display: none;
+    }
+    section.maincontent, section.sidebar {  /* Main content and sidebar are 98% width, centered, with slight padding */
+        width: 98%;
+        margin: 0 auto;
+        padding: 0 1%;
+    }
+    .sidebar article { /* Articles have larger bottom margin */
+        margin-bottom: 20%;
+    }
+    .sideImage { /* Top margin on side image is bigger */
+        margin-top: 2%;
+    }
+    footer p { /* Footer has slight padding to left on paragraph, and aligned left */
+        padding-left: 1%;
+        text-align: left;
+    }
+
+}
+
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {
+    #wrapper { /* Wrapper is 100% width now */
+        width: 100%;
+    }
+    #wrapper > article > section > ul > li { /* Unordered list items have larger widths and margins */
+        margin-left: 9%;
+        width: 16.09%;
+    }
+    figcaption, section.sidebar { /* Text smaller in figcaptions and sidebars */
+        font-size: .8em;
+    }
+    section.sidebar { /* Sidebar padding and margins are changed, width is larger */
+        padding:  1% 2%;
+        margin-right: 4%;
+        width: 27%;
+    }
+    .sidebar > article { /* Sidebar articles have larger bottom margin */
+        margin-bottom: 20%;
+    }
+    .bgImage img {  /* Zombie in header has smaller space on the left */
+        left: 8%;
+    }
+    .sideImage {  /* Sidebar images are larger in size */
+        width: 60%;
+    }
+}
+
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .sidebar > article { /* Margin on the bottoms of sidebar articles are a little larger than fullscreen */
+        margin-bottom: 15%;
+    }
+    .sidebar > article > header > h2 {  /* Sidebar headers are blocks with full width and different font-size */
+        font-size: 1.5em;
+        display: block;
+        width: 100%;
+    }
+    figcaption { /* Figcaption has smaller font */
+        font-size: .8em;
+    }
+}
