@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce39f0e0-5604-4f55-993f-bd9dc3a4fb94" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/B9/behavior.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/B9/contact.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/B9/food.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/B9/housing.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/B9/links.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/B9/toys.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/B9/css/adjustments.css" afterPath="$PROJECT_DIR$/B9/css/adjustments.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/B9/behavior.html" afterPath="$PROJECT_DIR$/B9/behavior.html" />
     </list>
     <ignored path="repo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -19,7 +14,7 @@
     <file path="/a.html" changelist="ce39f0e0-5604-4f55-993f-bd9dc3a4fb94" time="1389275752511" ignored="false" />
     <file path="/git_links.txt" changelist="ce39f0e0-5604-4f55-993f-bd9dc3a4fb94" time="1390513816541" ignored="false" />
     <file path="/layout.css" changelist="ce39f0e0-5604-4f55-993f-bd9dc3a4fb94" time="1389378590543" ignored="false" />
-    <file path="/adjustments.css" changelist="ce39f0e0-5604-4f55-993f-bd9dc3a4fb94" time="1390815342567" ignored="false" />
+    <file path="/adjustments.css" changelist="ce39f0e0-5604-4f55-993f-bd9dc3a4fb94" time="1390815759151" ignored="false" />
     <file path="$PROJECT_DIR$/B7/js/webshims-stable/demos/webforms/datalist-experiment.html" changelist="ce39f0e0-5604-4f55-993f-bd9dc3a4fb94" time="1390275361793" ignored="false" />
     <file path="$PROJECT_DIR$/B7/js/webshims-stable/demos/webforms.html" changelist="ce39f0e0-5604-4f55-993f-bd9dc3a4fb94" time="1390275395340" ignored="false" />
     <file path="$PROJECT_DIR$/B7/js/webshims-stable/demos/canvas.html" changelist="ce39f0e0-5604-4f55-993f-bd9dc3a4fb94" time="1390275395339" ignored="false" />
@@ -41,7 +36,7 @@
     <file path="/links.html" changelist="ce39f0e0-5604-4f55-993f-bd9dc3a4fb94" time="1390811686330" ignored="false" />
     <file path="/food.html" changelist="ce39f0e0-5604-4f55-993f-bd9dc3a4fb94" time="1390806757694" ignored="false" />
     <file path="/housing.html" changelist="ce39f0e0-5604-4f55-993f-bd9dc3a4fb94" time="1390789823354" ignored="false" />
-    <file path="/behavior.html" changelist="ce39f0e0-5604-4f55-993f-bd9dc3a4fb94" time="1390802436294" ignored="false" />
+    <file path="/behavior.html" changelist="ce39f0e0-5604-4f55-993f-bd9dc3a4fb94" time="1390815704918" ignored="false" />
     <file path="/toys.html" changelist="ce39f0e0-5604-4f55-993f-bd9dc3a4fb94" time="1390795669942" ignored="false" />
     <file path="/contact.html" changelist="ce39f0e0-5604-4f55-993f-bd9dc3a4fb94" time="1390809486530" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -63,10 +58,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="adjustments.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="adjustments.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/B9/css/adjustments.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="145" column="69" selection-start="4623" selection-end="4623" vertical-scroll-proportion="-2.8846154">
+            <state line="141" column="14" selection-start="4593" selection-end="4593" vertical-scroll-proportion="0.36324787">
               <folding />
             </state>
           </provider>
@@ -92,10 +87,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="behavior.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="behavior.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/B9/behavior.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="105" column="38" selection-start="7608" selection-end="7608" vertical-scroll-proportion="0.10676692">
+            <state line="172" column="79" selection-start="17333" selection-end="17333" vertical-scroll-proportion="-10.0">
               <folding />
             </state>
           </provider>
@@ -133,8 +128,8 @@
         <option value="$PROJECT_DIR$/B9/toys.html" />
         <option value="$PROJECT_DIR$/B9/contact.html" />
         <option value="$PROJECT_DIR$/B9/links.html" />
-        <option value="$PROJECT_DIR$/B9/css/adjustments.css" />
         <option value="$PROJECT_DIR$/B9/behavior.html" />
+        <option value="$PROJECT_DIR$/B9/css/adjustments.css" />
       </list>
     </option>
   </component>
@@ -562,13 +557,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/B9/css/adjustments.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="145" column="69" selection-start="4623" selection-end="4623" vertical-scroll-proportion="-2.8846154">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/B9/links.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="85" column="178" selection-start="4886" selection-end="4886" vertical-scroll-proportion="-11.833333">
@@ -587,7 +575,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/B9/behavior.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="105" column="38" selection-start="7608" selection-end="7608" vertical-scroll-proportion="0.10676692">
+        <state line="172" column="79" selection-start="17333" selection-end="17333" vertical-scroll-proportion="-10.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/B9/css/adjustments.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="141" column="14" selection-start="4593" selection-end="4593" vertical-scroll-proportion="0.36324787">
           <folding />
         </state>
       </provider>

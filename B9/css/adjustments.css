@@ -139,7 +139,7 @@ aside figcaption p { /* Figure captions size, color, and margin set */
     font-size: .8em;
     margin: 4% auto 0;
 }
-aside {
+aside.medium-4 {
     margin-right: 2%;
 }
 
