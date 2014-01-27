@@ -70,6 +70,7 @@ section.medium-12 > ul > li, ul > li > ul { /* Al list items besides navbar have
 .linkList li > p { /* Paragraphs in lists are displayed inline block and with smaller font */
     display: inline-block;
     font-size: .9em;
+    margin-left: 2%;
 }
 
 
