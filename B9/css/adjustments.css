@@ -199,7 +199,7 @@ div.imageHolder {  /* Image Holders are inline */
 div.medium-4:nth-child(4) > a:nth-child(1) > figure:nth-child(1) > figcaption:nth-child(2) { /* Placement of second figure's caption is different due to size */
     left: 17%;
 }
-a:hover > figure > figcaption, a:active > figure > figcaption, a:focus > figure > figcaption { /* On all hovering, activating, or focusing on figure captions, the caption becomes opaque and rotates one full circle */
+#buy a:active > figure > figcaption , #buy a:focus > figure > figcaption, #buy a:hover > figure > figcaption { /* On all hovering, activating, or focusing on figure captions, the caption becomes opaque and rotates one full circle */
     opacity: 1;
     -webkit-transform: rotate(360deg);
     -moz-transform: rotate(360deg);

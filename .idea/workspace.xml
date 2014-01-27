@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ce39f0e0-5604-4f55-993f-bd9dc3a4fb94" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/B9/css/adjustments.css" afterPath="$PROJECT_DIR$/B9/css/adjustments.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/B9/behavior.html" afterPath="$PROJECT_DIR$/B9/behavior.html" />
     </list>
     <ignored path="repo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -14,7 +13,7 @@
     <file path="/a.html" changelist="ce39f0e0-5604-4f55-993f-bd9dc3a4fb94" time="1389275752511" ignored="false" />
     <file path="/git_links.txt" changelist="ce39f0e0-5604-4f55-993f-bd9dc3a4fb94" time="1390513816541" ignored="false" />
     <file path="/layout.css" changelist="ce39f0e0-5604-4f55-993f-bd9dc3a4fb94" time="1389378590543" ignored="false" />
-    <file path="/adjustments.css" changelist="ce39f0e0-5604-4f55-993f-bd9dc3a4fb94" time="1390815759151" ignored="false" />
+    <file path="/adjustments.css" changelist="ce39f0e0-5604-4f55-993f-bd9dc3a4fb94" time="1390816002147" ignored="false" />
     <file path="$PROJECT_DIR$/B7/js/webshims-stable/demos/webforms/datalist-experiment.html" changelist="ce39f0e0-5604-4f55-993f-bd9dc3a4fb94" time="1390275361793" ignored="false" />
     <file path="$PROJECT_DIR$/B7/js/webshims-stable/demos/webforms.html" changelist="ce39f0e0-5604-4f55-993f-bd9dc3a4fb94" time="1390275395340" ignored="false" />
     <file path="$PROJECT_DIR$/B7/js/webshims-stable/demos/canvas.html" changelist="ce39f0e0-5604-4f55-993f-bd9dc3a4fb94" time="1390275395339" ignored="false" />
@@ -61,7 +60,16 @@
       <file leaf-file-name="adjustments.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/B9/css/adjustments.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="141" column="14" selection-start="4593" selection-end="4593" vertical-scroll-proportion="0.36324787">
+            <state line="201" column="89" selection-start="6538" selection-end="6538" vertical-scroll-proportion="0.8119658">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="toys.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/B9/toys.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="148" column="18" selection-start="9526" selection-end="9526" vertical-scroll-proportion="-9.416667">
               <folding />
             </state>
           </provider>
@@ -74,6 +82,15 @@
               <folding>
                 <element signature="tag#header#0;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/B9/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="69" column="46" selection-start="3999" selection-end="3999" vertical-scroll-proportion="-2.5416667">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -536,33 +553,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/B9/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="69" column="46" selection-start="3999" selection-end="3999" vertical-scroll-proportion="0.934877">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/B9/toys.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="148" column="18" selection-start="9526" selection-end="9526" vertical-scroll-proportion="-31.291666">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/B9/contact.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="112" column="61" selection-start="5724" selection-end="5724" vertical-scroll-proportion="-12.541667">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/B9/links.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="85" column="178" selection-start="4886" selection-end="4886" vertical-scroll-proportion="-11.833333">
-          <folding>
-            <element signature="tag#header#0;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -580,9 +574,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/B9/links.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="85" column="178" selection-start="4886" selection-end="4886" vertical-scroll-proportion="-11.833333">
+          <folding>
+            <element signature="tag#header#0;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/B9/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="69" column="46" selection-start="3999" selection-end="3999" vertical-scroll-proportion="-2.5416667">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/B9/toys.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="148" column="18" selection-start="9526" selection-end="9526" vertical-scroll-proportion="-9.416667">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/B9/css/adjustments.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="141" column="14" selection-start="4593" selection-end="4593" vertical-scroll-proportion="0.36324787">
+        <state line="201" column="89" selection-start="6538" selection-end="6538" vertical-scroll-proportion="0.8119658">
           <folding />
         </state>
       </provider>
