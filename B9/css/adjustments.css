@@ -1,0 +1,460 @@
+/* CSS */
+body{ /* Background image, font for all non-specified  */
+    background: url('../media/pageElements/background.jpg') repeat;
+    font-family: 'Spinnaker', sans-serif;
+}
+figure {  /* Figures are relative positioned to help with absolute positioning of captions */
+    position: relative
+}
+/*** Fonts and Text ***/
+/* Font Family */
+h1, h2, h3, h4, h5, label, input[type="submit"] { /* Headings, labels, and input button */
+    font-family: 'Patrick Hand SC', cursive;
+}
+.linkList li > p, aside.note, div.contain-to-grid > .top-bar .name h1 a , .top-bar-section li:not(.has-form) a:not(.button) {
+    font-family: 'Patrick Hand', cursive;
+}
+
+/* Font Sizing */
+h3, .linkList > ul  {
+    font-size: 1.5em;
+}
+a  {
+    font-size: 1em;
+}
+.top-bar .name h1 a ,.top-bar-section li:not(.has-form) a:not(.button) {
+    font-size: 1.3em;
+}
+table .red {  /* Smaller red font-size for table */
+     font-size: .8em;
+ }
+
+/* Text Alignment */
+h1, h3, p.center, header, header h1, header h2 {
+    text-align: center;
+}
+h2 {
+    text-align: left;
+}
+
+/* Font color, display, colors, etc */
+a, .top-bar .name h1 a ,.top-bar-section li:not(.has-form) a:not(.button) { /* Link Colors throughout */
+    color: #4ba654;
+}
+a:hover { /* Links when hovered */
+    color: #3a8a3c;
+    text-shadow: rgb(105, 255, 107) 0px 0px 3px;
+}
+header.site h1 {  /* Site wide header h1 */
+    font: 4em 'Delius Swash Caps', cursive;
+    margin: 0;
+}
+header.site h2 { /* Site wide header h2 */
+    font-size: 2em;
+    margin-top: 0;
+}
+.red {
+    color: red;
+}
+.centerdescrip { /* Descriptive fonts are oblique and centered */
+    font-style: oblique;
+    text-align: center;
+}
+.linkList > ul {  /* No list style on various sections in link list with larger font*/
+    list-style-type: none;
+}
+section.medium-12 > ul > li, ul > li > ul { /* Al list items besides navbar have bunny ears */
+    list-style-image: url('../media/pageElements/bullets.png');
+    list-style-position: inside;
+}
+.linkList li > p { /* Paragraphs in lists are displayed inline block and with smaller font */
+    display: inline-block;
+    font-size: .9em;
+}
+
+
+
+/** Rows **/
+.row { /* Rows have background color and padding */
+    background-color: #fff;
+    padding: 2% 1% 0;
+}
+body > .row:first-of-type {  /* First row has top rounded with margin */
+    background: #e7f6ff url(../media/pageElements/square_bg.png) repeat;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    margin-top: 2%;
+}
+.row:last-of-type { /* Bottom row has bottom rounded with margin */
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    margin-bottom: 2%;
+}
+
+/* Various Lists */
+#bunnyproof li, #homemade li{ /* Bunny proof and homemade list items have bottom and left margin */
+    margin-bottom: 2%;
+    margin-left: 2%;
+}
+
+
+/** Nav Bar **/
+div.contain-to-grid, div.contain-to-grid > .top-bar, .top-bar-section li:not(.has-form) a:not(.button), div.contain-to-grid ul.right, .top-bar-section ul.left li:not(.has-form) a:not(.button), ul.left { /* Give it all a transparent background */
+    background-color: transparent;
+}
+
+div.contain-to-grid > .top-bar .name h1 a , .top-bar-section li:not(.has-form) a:not(.button){  /* Change text color, font size, padding */
+    letter-spacing: .8px;
+    padding: 12px 15px 12px 15px;
+}
+div.contain-to-grid > .top-bar .name h1 a:hover, .top-bar-section li:not(.has-form) a:hover:not(.button),  .top-bar-section ul.right >  li.has-dropdown > ul.dropdown > li:not(.has-form) a:hover:not(.button), .top-bar-section ul.left  li:not(.has-form) a:hover:not(.button), .top-bar .toggle-topbar.menu-icon a:hover   {  /* Change background/font color on hover */
+    background-color: #3a713b;
+    color: #ffffff;
+}
+.top-bar-section ul.right >  li.has-dropdown > ul.dropdown > li:not(.has-form) a:not(.button)  { /* Change background of top-bar items */
+    background-color: #e7ffe4;
+    border: 2px solid  #3a713b;
+    color: #306930
+}
+.top-bar-section ul.right > li.has-dropdown > ul.dropdown > li:nth-child(1n+4):not(.has-form) a:not(.button) { /* Top border only on top list item */
+    border-top: none;
+}
+.top-bar-section .has-dropdown > a:after {/* Dropdown Arrow */
+    top: 50%;
+}
+
+
+/** Asides **/
+aside { /* Asides have same color, rounded corners, and padding */
+    background-color: #0099cc;
+    border-radius: 25px;
+    padding: 2%;
+}
+aside img { /* Images have rounded corners */
+    border-radius: 25px;
+}
+aside figcaption p { /* Figure captions size, color, and margin set */
+    color: #fff;
+    text-align: center;
+    font-size: .8em;
+    margin: 4% auto 0;
+}
+aside {
+    margin-right: 2%;
+}
+
+/* Notes */
+aside.note { /* Notes class asides are on sticky background or simulation, full background size, float right, font set, padding, margin, and letter spacing */
+    background: #F5E98A;
+    background: url('../media/pageElements/sticky_note.png') no-repeat;
+    background-size: 100% 100%;
+    border-radius: 0;
+    float: right;
+    padding: 1% 2% 2% 4%;
+    margin: 1% 0;
+    letter-spacing: 1px;
+}
+.row:nth-child(2n) aside.note { /* Notes float to alternate sides */
+    margin-right: 2%;
+    float: left;
+}
+aside.note p:last-of-type { /* Extra padding under last paragraph */
+    padding-bottom: 6%;
+}
+
+
+/* Image Holders */
+div.imageHolder {  /* Image Holders are inline */
+    display: inline-block;
+}
+#bodylanguage div.imageHolder { /* Body language image holders have 48% width */
+    width: 48%;
+}
+
+#homemade div.imageHolder { /* Homemade Image Holders have curved edges, borders, 30% width, and a slight margin on sides */
+    border-radius: 10px;
+    border: 10px solid #0099cc;
+    width: 30%;
+    margin: 0 1%;
+}
+#buy > div > a, #buy > div > a > figure, img {  /* Links, images, and figures are 100% width in Buy section */
+    width: 100%;
+}
+
+/* Buy Figcaptions */
+
+#buy figure > figcaption { /* Figure captions have black background, white slightly larger font, padding, positioning, and center text alignment set. Opacity is at zero, and transition set */
+    background-color: #000;
+    color: #fff;
+    font-size: 1.2em;
+    opacity: 0;
+    padding: 5% 10%;
+    position: absolute;
+    text-align: center;
+    -webkit-transition: all 0.5s ease-out .3s;
+    transition: all 0.5s ease-out .3s;
+    left: 31%;
+    top: 40%;
+}
+div.medium-4:nth-child(4) > a:nth-child(1) > figure:nth-child(1) > figcaption:nth-child(2) { /* Placement of second figure's caption is different due to size */
+    left: 17%;
+}
+a:hover > figure > figcaption, a:active > figure > figcaption, a:focus > figure > figcaption { /* On all hovering, activating, or focusing on figure captions, the caption becomes opaque and rotates one full circle */
+    opacity: 1;
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+
+
+/** Tables **/
+table { /* Table has dark green background, smaller width, and margin set */
+    background-color: #306930;
+    margin: 1% auto 5%;
+    width: 80%;
+}
+caption { /* Captions have margins at bottom and are aligned left */
+    margin-bottom: 1%;
+    text-align: left;
+}
+table tr:nth-of-type(2n){ /* Every other row is set to one color */
+    background-color: #ddffe2;
+}
+tr:nth-child(2n+1) { /* The alternating rows from above are a different color */
+    background-color: #cbe3ff;
+}
+td { /* All table data cells are 33% in width to allow for 3 across at all times */
+    width: 33%;
+}
+td:nth-child(2) { /* Background color of middle cells are slightly lighter than rest in row */
+    background-color: rgba(255, 255, 255, 0.27);
+}
+.descrip { /* Descriptive text floats to the right, is smaller in size, and oblique */
+    float: right;
+    font-size: .8em;
+    font-style: oblique;
+}
+
+/** Footer **/
+footer p { /* Footer font size set, no padding, no margin, centered text */
+    font-size: .8em;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+footer p a:hover {  /* On hover of the link, the link becomes larger by 1.3, display as block */
+    display: block;
+    -webkit-transform: scale(1.3);
+    -moz-transform: scale(1.3);
+    -o-transform: scale(1.3);
+    transform: scale(1.3);
+}
+
+/** Form **/
+form { /* Entire form has background color, rounded edges, padding and margin */
+    background-color: #E0EFF8;
+    border-radius: 20px;
+    padding: 3% 3% 1%;
+    margin-top: -3%;
+}
+.row > form > div.row {  /* Each row in the form has rounded corners and bottom margin */
+    border-radius: 20px;
+    margin-bottom: 2%;
+}
+label { /* Label font size set */
+    font-size: 1.3em;
+}
+label.smaller { /* Smaller labels for checkboxes and radio buttons set to blend with input text */
+    font: 1em 'Spinnaker', sans-serif;
+}
+textarea {  /* Text area has 100% height to accomodate rows set inline */
+    height: 100%;
+}
+textarea:focus, select { /* Background of dropdown and text area set to white  */
+    background-color: #fff;
+}
+input[type="text"]:focus, input[type="email"]:focus, textarea:focus, select:focus, select:hover  {  /* All inputs that allow for text or dropdowns have coloured background, border, and box shadow */
+    background-color: rgba(219, 241, 255, 0.31);
+    border: 2px solid rgba(203, 227, 255, 0.56);
+    box-shadow: 0px 0px 5px 1px #96BDED;
+    -webkit-box-shadow: 0px 0px 5px 1px #96BDED;
+    -moz-box-shadow: 0px 0px 5px 1px #96BDED;
+    -o-box-shadow: 0px 0px 5px 1px #96BDED;
+}
+input[type="submit"] {  /* Submit button has gradient coloration, very rounded corners, a border, box shadow, large font-size, and is centered with top and bottom margin and full width of containing div */
+    background: radial-gradient(center, ellipse cover, rgb(171, 255, 160) 38%, rgba(203, 227, 255, 0.80) 99%);
+    background: -moz-radial-gradient(center, ellipse cover, rgb(171, 255, 160) 38%, rgba(203, 227, 255, 0.80) 99%);
+    background: -webkit-radial-gradient(center, ellipse cover, rgb(171, 255, 160) 38%, rgba(203, 227, 255, 0.80) 99%);
+    background: -o-radial-gradient(center, ellipse cover, rgb(171, 255, 160) 38%, rgba(203, 227, 255, 0.80) 99%);
+    border-radius: 40px;
+    border: 2px solid #9bcca3;
+    box-shadow: 0px 0px 10px 1px #9BCCA3;
+    -webkit-box-shadow: 0px 0px 10px 1px #9BCCA3;
+    -moz-box-shadow: 0px 0px 10px 1px #9BCCA3;
+    -o-box-shadow: 0px 0px 10px 1px #9BCCA3;
+    font-size: 2em;
+    margin: 5% auto;
+    width: 100%;
+}
+input[type="submit"]:hover {  /* On hover the submit button has a brighter version of same gradient when inactive, different border, and box shadow */
+    background: radial-gradient(center, ellipse cover, rgb(137, 255, 91) 38%, rgba(173, 217, 255, 0.80) 99%);
+    background: -moz-radial-gradient(center, ellipse cover, rgb(137, 255, 91) 38%, rgba(173, 217, 255, 0.80) 99%);
+    background: -webkit-radial-gradient(center, ellipse cover, rgb(137, 255, 91) 38%, rgba(173, 217, 255, 0.80) 99%);
+    background: -o-radial-gradient(center, ellipse cover, rgb(137, 255, 91) 38%, rgba(173, 217, 255, 0.80) 99%);
+    border: 2px solid #a6bacc;
+    box-shadow: 0px 0px 10px 1px #a6bacc;
+    -webkit-box-shadow: 0px 0px 10px 1px #a6bacc;
+    -moz-box-shadow: 0px 0px 10px 1px #a6bacc;
+    -o-box-shadow: 0px 0px 10px 1px #a6bacc;
+}
+
+/**********************************************************************************************************************/
+/************************************************ MEDIA QUERIES *******************************************************/
+/**********************************************************************************************************************/
+
+/* Define mobile styles */
+@media only screen and (max-width: 40em) {
+    body { /* Change background to color to blend with heading */
+        background: #E5F4FD;
+    }
+    .descrip { /* Descriptive text is block level, no float, left aligned text */
+        clear: both;
+        display: block;
+        float: none;
+        text-align: left;
+    }
+    /*** Headers ***/
+    header.site h1 { /* Smaller font */
+        font-size: 2.2em;
+    }
+    header.site h2 { /* Smaller font */
+        font-size: 1.5em;
+    }
+
+    /*** Rows ***/
+    .row:first-of-type {  /* First row not rounded, no margin */
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+        margin-top: 0;
+    }
+    .row:last-of-type { /* Bottom row not rounded, no margin */
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+        margin-bottom: 6%;
+    }
+
+    /*** Navigation ***/
+    div.contain-to-grid, div.contain-to-grid > .top-bar, .top-bar-section li:not(.has-form) a:not(.button), div.contain-to-grid ul.right, .top-bar-section ul.left li:not(.has-form) a:not(.button), ul.left { /* Nav bar now has shading */
+        background-color: #afd7ef;
+    }
+
+    div.contain-to-grid > .top-bar .name h1 a, .top-bar-section li:not(.has-form) a:not(.button) { /* Change font-siz of navbar text */
+        font: bold 0.9rem 'Spinnaker', sans-serif;
+    }
+    div.contain-to-grid > .top-bar .name h1 a, .top-bar-section li:not(.has-form) a:not(.button),  .top-bar-section ul.right >  li.has-dropdown > ul.dropdown > li:not(.has-form) a:hover:not(.button), .top-bar-section ul.left  li:not(.has-form) a:not(.button), .top-bar .toggle-topbar.menu-icon a { /* Change font color */
+        color: #fff;
+    }
+    .top-bar.expanded .title-area { /* Alternate background color for bar */
+        background-color: #6a8299;
+    }
+    .top-bar .toggle-topbar.menu-icon a { /* Padding extended for better shading */
+        padding: 4% 35% 27%;
+    }
+    .top-bar .toggle-topbar.menu-icon a:after { /* Change Width to center text more */
+        margin-right: 5%;
+        top: 10%;
+    }
+    .top-bar .toggle-topbar.menu-icon { /* Line up correctly */
+        right: 0;
+        top: 36%;
+    }
+
+
+    /*** Asides ***/
+    aside.note { /* Change background and add border */
+        background: #afd7ef;
+        border: 2px dashed #6a8299;
+        box-shadow: 0px 0px 5px 2px #58708e;
+        -webkit-box-shadow: 0px 0px 5px 2px #58708e;
+        -moz-box-shadow: 0px 0px 5px 2px #58708e;
+        -o-box-shadow: 0px 0px 5px 2px #58708e;
+        margin-bottom: 6%;
+    }
+    aside.note h4 { /* Larger font-size */
+        font-size: 1.3em;
+    }
+    aside.note p, aside.note p:last-of-type  { /* Smaller font-size */
+        font-size: .9em;
+        margin-bottom: .5em;
+        padding-bottom: 0;
+    }
+
+    /*** Images ***/
+    #homemade div.imageHolder { /* Full width image holder with bottom margin */
+        margin-bottom: 5%;
+        width: 100%;
+    }
+
+    /*** Form ***/
+    form, form > .row { /* Form has no background color, nor do the rows */
+        background-color: transparent;
+        border-radius: 0;
+    }
+    input[type="checkbox"] { /* Verify always inline block */
+        display: inline-block;
+    }
+    input[type="checkbox"] + label { /* set smaller, width, and vertical alignment, and always inline-block to ensure lines up properly */
+        display: inline-block;
+        font-size: .8em;
+        width: 87%;
+        vertical-align: middle;
+    }
+
+    /*** Tables ***/
+    table { /* Full size with larger bottom margin */
+        margin-bottom: 10%;
+        width: 100%;
+    }
+    table caption { /* Larger text and centered */
+        font-size: 1.2em;
+        text-align: center;
+    }
+
+    /*** Footer ***/
+    footer {
+        margin-bottom: 3%;
+    }
+}
+
+
+/* Medium screens min-width 641px and max-width 1024px */
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+    /*** Navigation ***/
+    .top-bar-section li:not(.has-form) a:not(.button) {  /* Font size smaller */
+        font-size: 1.1em;
+    }
+    div.contain-to-grid > .top-bar .name h1 a {  /* Width altered*/
+        width: 100%;
+    }
+    /*** Asides ***/
+    aside.note { /* Change background and add border */
+        padding: 0;
+    }
+    aside.note h4, aside.note p { /* Adjust padding */
+        padding: 0 5% 0 10%;
+        margin-bottom: 3%;
+    }
+    .row:nth-child(2n) aside.note { /* Adjust left */
+        left: -3%;
+    }
+    /*** Images ***/
+    figure > figcaption { /* Adjust left */
+        left: 28%;
+    }
+    /*** Footer ***/
+    footer p a:hover {  /* Transform to smaller scale */
+        transform: scale(1.2);
+    }
+
+}
