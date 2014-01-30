@@ -143,6 +143,20 @@ aside figcaption p { /* Figure captions size, color, and margin set */
 aside.medium-4 {
     margin-right: 2%;
 }
+aside.right { /* COA has no background color */
+    background-color: transparent;
+}
+aside.right .button { /* Buttons on COA match aside background, are block to resize nicely, larger border, and border radius */
+    background-color: #0099cc;
+    display: block;
+    border-radius: 20px;
+    padding: 5% 10%;
+}
+aside.right .button:hover { /* Buttons background change to green like other links */
+    background-color: #e7f6ff;
+    color: #3a8a3c;
+    text-shadow: rgb(105, 255, 107) 0px 0px 3px;;
+}
 
 /* Notes */
 aside.note { /* Notes class asides are on sticky background or simulation, full background size, float right, font set, padding, margin, and letter spacing */
@@ -316,6 +330,9 @@ input[type="submit"]:hover {  /* On hover the submit button has a brighter versi
 
 /* Define mobile styles */
 @media only screen and (max-width: 40em) {
+    header.site h1 {
+        color: orange;
+    }
     body { /* Change background to color to blend with heading */
         background: #E5F4FD;
     }
@@ -390,6 +407,10 @@ input[type="submit"]:hover {  /* On hover the submit button has a brighter versi
         margin-bottom: .5em;
         padding-bottom: 0;
     }
+    aside.right .button { /* Change to larger font for easier pressing on phone, less padding */
+        font-size: 1.5em;
+        padding: 1%;
+    }
 
     /*** Images ***/
     #homemade div.imageHolder { /* Full width image holder with bottom margin */
@@ -431,6 +452,9 @@ input[type="submit"]:hover {  /* On hover the submit button has a brighter versi
 
 /* Medium screens min-width 641px and max-width 1024px */
 @media only screen and (min-width: 40.063em) and (max-width: 64em) {
+    header.site h1 {
+        color: red;
+    }
     /*** Navigation ***/
     .top-bar-section li:not(.has-form) a:not(.button) {  /* Font size smaller */
         font-size: 1.1em;

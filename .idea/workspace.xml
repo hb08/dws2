@@ -2,18 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce39f0e0-5604-4f55-993f-bd9dc3a4fb94" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/B7/git_links.txt" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/B9/css/adjustments.css" afterPath="$PROJECT_DIR$/B9/css/adjustments.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/B9/behavior.html" afterPath="$PROJECT_DIR$/B9/behavior.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/B9/index.html" afterPath="$PROJECT_DIR$/B9/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="repo.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="ce39f0e0-5604-4f55-993f-bd9dc3a4fb94" time="1390600401184" ignored="false" />
-    <file path="/index.html" changelist="ce39f0e0-5604-4f55-993f-bd9dc3a4fb94" time="1390789795072" ignored="false" />
+    <file path="/Dummy.txt" changelist="ce39f0e0-5604-4f55-993f-bd9dc3a4fb94" time="1391069421575" ignored="false" />
+    <file path="/index.html" changelist="ce39f0e0-5604-4f55-993f-bd9dc3a4fb94" time="1391070271158" ignored="false" />
     <file path="/README.md" changelist="ce39f0e0-5604-4f55-993f-bd9dc3a4fb94" time="1389097916309" ignored="false" />
     <file path="/styles.css" changelist="ce39f0e0-5604-4f55-993f-bd9dc3a4fb94" time="1390512828989" ignored="false" />
     <file path="/a.html" changelist="ce39f0e0-5604-4f55-993f-bd9dc3a4fb94" time="1389275752511" ignored="false" />
-    <file path="/git_links.txt" changelist="ce39f0e0-5604-4f55-993f-bd9dc3a4fb94" time="1390513816541" ignored="false" />
+    <file path="/git_links.txt" changelist="ce39f0e0-5604-4f55-993f-bd9dc3a4fb94" time="1391069473599" ignored="false" />
     <file path="/layout.css" changelist="ce39f0e0-5604-4f55-993f-bd9dc3a4fb94" time="1389378590543" ignored="false" />
-    <file path="/adjustments.css" changelist="ce39f0e0-5604-4f55-993f-bd9dc3a4fb94" time="1390818015612" ignored="false" />
+    <file path="/adjustments.css" changelist="ce39f0e0-5604-4f55-993f-bd9dc3a4fb94" time="1391070715922" ignored="false" />
     <file path="$PROJECT_DIR$/B7/js/webshims-stable/demos/webforms/datalist-experiment.html" changelist="ce39f0e0-5604-4f55-993f-bd9dc3a4fb94" time="1390275361793" ignored="false" />
     <file path="$PROJECT_DIR$/B7/js/webshims-stable/demos/webforms.html" changelist="ce39f0e0-5604-4f55-993f-bd9dc3a4fb94" time="1390275395340" ignored="false" />
     <file path="$PROJECT_DIR$/B7/js/webshims-stable/demos/canvas.html" changelist="ce39f0e0-5604-4f55-993f-bd9dc3a4fb94" time="1390275395339" ignored="false" />
@@ -60,7 +64,16 @@
       <file leaf-file-name="adjustments.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/B9/css/adjustments.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="71" column="16" selection-start="2093" selection-end="2093" vertical-scroll-proportion="0.8333333">
+            <state line="155" column="30" selection-start="5068" selection-end="5068" vertical-scroll-proportion="0.54545456">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="git_links.txt" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/B9/git_links.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="32" selection-start="202" selection-end="202" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -69,7 +82,7 @@
       <file leaf-file-name="toys.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/B9/toys.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="148" column="18" selection-start="9526" selection-end="9526" vertical-scroll-proportion="-9.416667">
+            <state line="148" column="18" selection-start="9526" selection-end="9526" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -78,10 +91,8 @@
       <file leaf-file-name="links.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/B9/links.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="83" column="91" selection-start="4519" selection-end="4519" vertical-scroll-proportion="-3.0833333">
-              <folding>
-                <element signature="tag#header#0;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
-              </folding>
+            <state line="83" column="91" selection-start="4519" selection-end="4519" vertical-scroll-proportion="-0.625">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -89,7 +100,7 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/B9/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="69" column="46" selection-start="3999" selection-end="3999" vertical-scroll-proportion="-2.5416667">
+            <state line="79" column="65" selection-start="4485" selection-end="4485" vertical-scroll-proportion="-5.0416665">
               <folding />
             </state>
           </provider>
@@ -98,7 +109,7 @@
       <file leaf-file-name="food.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/B9/food.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="69" column="42" selection-start="3786" selection-end="3786" vertical-scroll-proportion="1.2083334">
+            <state line="69" column="42" selection-start="3786" selection-end="3786" vertical-scroll-proportion="-0.625">
               <folding />
             </state>
           </provider>
@@ -107,7 +118,7 @@
       <file leaf-file-name="behavior.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/B9/behavior.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="172" column="79" selection-start="17333" selection-end="17333" vertical-scroll-proportion="-10.0">
+            <state line="153" column="47" selection-start="12913" selection-end="12913" vertical-scroll-proportion="-3.7916667">
               <folding />
             </state>
           </provider>
@@ -131,7 +142,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/B7/css/styles.css" />
         <option value="$PROJECT_DIR$/B6/index.html" />
         <option value="$PROJECT_DIR$/B7/index.html" />
         <option value="$PROJECT_DIR$/B6/git_links.txt" />
@@ -141,18 +151,19 @@
         <option value="$PROJECT_DIR$/B8/index.html" />
         <option value="$PROJECT_DIR$/B9/food.html" />
         <option value="$PROJECT_DIR$/B9/housing.html" />
-        <option value="$PROJECT_DIR$/B9/index.html" />
         <option value="$PROJECT_DIR$/B9/toys.html" />
         <option value="$PROJECT_DIR$/B9/contact.html" />
-        <option value="$PROJECT_DIR$/B9/behavior.html" />
         <option value="$PROJECT_DIR$/B9/links.html" />
+        <option value="$PROJECT_DIR$/B9/git_links.txt" />
+        <option value="$PROJECT_DIR$/B9/behavior.html" />
+        <option value="$PROJECT_DIR$/B9/index.html" />
         <option value="$PROJECT_DIR$/B9/css/adjustments.css" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="23" />
-    <option name="y" value="22" />
+    <option name="x" value="2" />
+    <option name="y" value="66" />
     <option name="width" value="1371" />
     <option name="height" value="874" />
   </component>
@@ -182,6 +193,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -228,115 +240,12 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="media" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="repo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="repo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="B9" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="media" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pageElements" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="repo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="repo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="B9" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="media" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="repo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="repo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="B9" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="media" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="toys" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="repo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="repo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="B8" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="repo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="repo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="B8" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -344,8 +253,8 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.HTML" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/B6/media/images/books" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -408,12 +317,11 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="23" y="22" width="1371" height="874" extended-state="0" />
+    <frame x="2" y="66" width="1371" height="874" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32838982" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17581603" sideWeight="0.6716102" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -424,6 +332,7 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32838982" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -490,25 +399,14 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/B7/git_links.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="9" selection-start="64" selection-end="103" vertical-scroll-proportion="0.061813187">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/B6/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="110" column="70" selection-start="12021" selection-end="12021" vertical-scroll-proportion="3.9434888">
-          <folding />
-        </state>
+        <state line="110" column="70" selection-start="12021" selection-end="12021" vertical-scroll-proportion="3.9434888" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/B7/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="48" selection-start="844" selection-end="844" vertical-scroll-proportion="0.7002457">
-          <folding />
-        </state>
+        <state line="19" column="48" selection-start="844" selection-end="844" vertical-scroll-proportion="0.7002457" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/B9/css/foundation.css">
@@ -520,30 +418,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/B7/css/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="256" column="0" selection-start="11844" selection-end="12207" vertical-scroll-proportion="-2.1670535">
-          <folding />
-        </state>
+        <state line="256" column="0" selection-start="11844" selection-end="12207" vertical-scroll-proportion="-2.1670535" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/B6/css/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="169" column="1" selection-start="4550" selection-end="4911" vertical-scroll-proportion="0.4849188">
-          <folding />
-        </state>
+        <state line="169" column="1" selection-start="4550" selection-end="4911" vertical-scroll-proportion="0.4849188" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/B4/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-3.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-3.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/B8/css/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="110" column="4" selection-start="2978" selection-end="3011" vertical-scroll-proportion="0.6629681">
-          <folding />
-        </state>
+        <state line="110" column="4" selection-start="2978" selection-end="3011" vertical-scroll-proportion="0.6629681" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/B9/housing.html">
@@ -555,51 +445,54 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/B9/contact.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="112" column="61" selection-start="5724" selection-end="5724" vertical-scroll-proportion="-12.541667">
+        <state line="112" column="61" selection-start="5724" selection-end="5724" vertical-scroll-proportion="-12.541667" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/B9/toys.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="148" column="18" selection-start="9526" selection-end="9526" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/B9/git_links.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="32" selection-start="202" selection-end="202" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/B9/food.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="69" column="42" selection-start="3786" selection-end="3786" vertical-scroll-proportion="1.2083334">
+        <state line="69" column="42" selection-start="3786" selection-end="3786" vertical-scroll-proportion="-0.625">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/B9/behavior.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="172" column="79" selection-start="17333" selection-end="17333" vertical-scroll-proportion="-10.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/B9/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="69" column="46" selection-start="3999" selection-end="3999" vertical-scroll-proportion="-2.5416667">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/B9/toys.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="148" column="18" selection-start="9526" selection-end="9526" vertical-scroll-proportion="-9.416667">
+        <state line="153" column="47" selection-start="12913" selection-end="12913" vertical-scroll-proportion="-3.7916667">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/B9/links.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="83" column="91" selection-start="4519" selection-end="4519" vertical-scroll-proportion="-3.0833333">
-          <folding>
-            <element signature="tag#header#0;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
-          </folding>
+        <state line="83" column="91" selection-start="4519" selection-end="4519" vertical-scroll-proportion="-0.625">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/B9/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="79" column="65" selection-start="4485" selection-end="4485" vertical-scroll-proportion="-5.0416665">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/B9/css/adjustments.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="71" column="16" selection-start="2093" selection-end="2093" vertical-scroll-proportion="0.8333333">
+        <state line="155" column="30" selection-start="5068" selection-end="5068" vertical-scroll-proportion="0.54545456">
           <folding />
         </state>
       </provider>
