@@ -330,9 +330,6 @@ input[type="submit"]:hover {  /* On hover the submit button has a brighter versi
 
 /* Define mobile styles */
 @media only screen and (max-width: 40em) {
-    header.site h1 {
-        color: orange;
-    }
     body { /* Change background to color to blend with heading */
         background: #E5F4FD;
     }
@@ -452,9 +449,6 @@ input[type="submit"]:hover {  /* On hover the submit button has a brighter versi
 
 /* Medium screens min-width 641px and max-width 1024px */
 @media only screen and (min-width: 40.063em) and (max-width: 64em) {
-    header.site h1 {
-        color: red;
-    }
     /*** Navigation ***/
     .top-bar-section li:not(.has-form) a:not(.button) {  /* Font size smaller */
         font-size: 1.1em;

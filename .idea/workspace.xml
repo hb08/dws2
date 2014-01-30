@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce39f0e0-5604-4f55-993f-bd9dc3a4fb94" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/B7/git_links.txt" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/B9/css/adjustments.css" afterPath="$PROJECT_DIR$/B9/css/adjustments.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/B9/behavior.html" afterPath="$PROJECT_DIR$/B9/behavior.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/B9/index.html" afterPath="$PROJECT_DIR$/B9/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="repo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -64,16 +60,7 @@
       <file leaf-file-name="adjustments.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/B9/css/adjustments.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="155" column="30" selection-start="5068" selection-end="5068" vertical-scroll-proportion="0.54545456">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="git_links.txt" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/B9/git_links.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="32" selection-start="202" selection-end="202" vertical-scroll-proportion="0.0">
+            <state line="450" column="68" selection-start="16123" selection-end="16123" vertical-scroll-proportion="0.5874126">
               <folding />
             </state>
           </provider>
@@ -455,13 +442,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/B9/git_links.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="32" selection-start="202" selection-end="202" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/B9/food.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="69" column="42" selection-start="3786" selection-end="3786" vertical-scroll-proportion="-0.625">
@@ -492,7 +472,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/B9/css/adjustments.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="155" column="30" selection-start="5068" selection-end="5068" vertical-scroll-proportion="0.54545456">
+        <state line="450" column="68" selection-start="16123" selection-end="16123" vertical-scroll-proportion="0.5874126">
           <folding />
         </state>
       </provider>
